@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDB38A86-31AF-E2F3-5A1B-779EB9EE674C" name="TIPO_PAGO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>924862FF-54B2-86D1-04C2-CC8CCC066A3E</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="0A9B1C1D-707E-488D-F7ED-BB53D9669359">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>128BFCAA-9121-A937-27A5-A9A05CE4627C</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="34EC34DB-A562-6841-F05B-2F2015A4E06A">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>80981D7C-6672-FB1C-BD05-EC4C8B5E3ED5</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCE964C5-0203-D4CF-E741-6CD43A8219CB" name="TIPO_PAGO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>C6BB81F9-0A94-7935-EDBC-325F25756B05</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A9B1C1D-707E-488D-F7ED-BB53D9669359"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B94AEB2E-CD79-62E6-DFE6-9EDB0C430658" name="TIPO_PAGO_nombre_UN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>DE8D90D5-4201-3BF8-310E-47E5FA27A60E</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34EC34DB-A562-6841-F05B-2F2015A4E06A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

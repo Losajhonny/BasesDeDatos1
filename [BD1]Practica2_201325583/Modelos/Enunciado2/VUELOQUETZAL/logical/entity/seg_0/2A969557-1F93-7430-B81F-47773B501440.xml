@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A969557-1F93-7430-B81F-47773B501440" name="LENGUAJE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:20:13 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="A8F878C8-9D73-FDA4-839D-BBDED777E135">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:21:26 UTC</createdTime>
+<generatorID>6604E4DB-4BB5-8301-1DF4-18F0528EF9DD</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<referedAttribute>EF02FFC0-A988-2993-312E-783EEFE257D9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cui" id="33787177-1BA1-C480-AD96-256CA45283C5">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:22:42 UTC</createdTime>
+<generatorID>A1F53C43-2488-A29B-C528-80D43CA5D549</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<referedAttribute>FBCBF1B5-B889-383E-07B0-A33BC1038235</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0E6A9E1-A83E-EA05-B0F2-434317713DF3" name="LENGUAJE PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:21:26 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8F878C8-9D73-FDA4-839D-BBDED777E135</attributeRef>
+<attributeRef>33787177-1BA1-C480-AD96-256CA45283C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="246CC3D0-1D24-909D-2235-2D57D6EE3EE8" name="DENUNCIANTE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>FA6DDCD7-2354-0DE1-A104-9F8B489BEE65</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cui" id="AF5A529F-3BF8-5136-8FB1-694F78CAAF25">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>8BCFAE4F-C455-890B-2A5D-991945DD4390</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B4F59A92-6442-D2A5-D94C-6A199D4BFBA6">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>74F04595-9C45-088C-5009-4510935CAAD8</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADN_codigo" id="CBECF23D-4096-8D05-B3E2-0453193D9125">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>82DDA76A-CA81-4365-D767-CCE6AD382D44</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EAFD401-BB81-6E30-147B-F92FB50B363B" referredColumn="77979444-C8C7-A3BB-6816-7D51FE255816"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4B84987-940E-8BC1-BE45-74F250FB2E0B" name="DENUNCIANTE_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>9D34FFF9-A2FD-8677-28B6-2FF9FE51AC19</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF5A529F-3BF8-5136-8FB1-694F78CAAF25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4675F22B-D006-E80E-8DD7-4F345F04062F" name="DENUNCIANTE_ADN_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>5AC8C46B-2C2C-5C6A-022B-C20ABB4E3AB3</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBECF23D-4096-8D05-B3E2-0453193D9125"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72426491-E780-1C80-C710-84B3072FB68E" name="CLIENTE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:40:43 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cui" id="A3771948-0CA9-D80A-367E-45265227CC07">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:40:49 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="57C50F6E-3A62-7708-209E-0AD819DC0486">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:41:07 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="A88095AD-ABA6-9CA1-E56C-A6A2179E507B">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:41:17 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nac" id="6FAE1348-0C25-1F23-0E19-C634E01AA933">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:41:27 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="BFB8DBCD-F925-F521-F81B-9C91FA82C258">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:41:34 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="3DE29E01-A5B0-018D-5326-AE64CF3C19F9">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:41:43 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F354F174-E7A1-F3A3-1299-65C78FFE0E80" name="CLIENTE PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:40:52 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3771948-0CA9-D80A-367E-45265227CC07</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

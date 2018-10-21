@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="047ACE40-3997-F7E0-3981-699ACAEDF65B" name="TIPO_EMPLEADO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>2D614ABE-E162-65FF-A7D4-6E5EBDB82F65</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="A0305E72-4723-82C1-B666-0C1F510AA239">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>9229E69E-5D38-C239-C220-A318BD4CB13A</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="8C477D1A-B0AD-C974-1D80-7BEA3E9E4DB7">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>C648ADDF-1DB3-6256-DC90-941A541BECAB</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="668CD646-C5D4-904F-9199-761BDDF82A16" name="TIPO_EMPLEADO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>974A29EC-554E-37BD-68B9-F71288E1647A</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0305E72-4723-82C1-B666-0C1F510AA239"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02168AE6-0D4D-0BE5-0D67-39DFFD52DE55" name="TIPO_EMPLEADO__UN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>B9147ABE-4CE0-877F-9109-C7A0149481D7</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C477D1A-B0AD-C974-1D80-7BEA3E9E4DB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

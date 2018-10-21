@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D7D7E06-10A1-E4F3-E7D0-C67D06457E13" name="SEGURO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:30:38 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="F4E7CF56-483B-223E-C6F4-3DE9420F4A46">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:30:52 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="78887FCD-6E01-002F-A68F-A31AB273C9BE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:31:02 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F60B60EC-4928-7B2D-68AB-5924E128B0AD" name="SEGURO PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:31:01 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4E7CF56-483B-223E-C6F4-3DE9420F4A46</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="CD25E2E3-2693-7542-EEC8-3F9B5BACE31E" name="SEGURO_UN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:31:18 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<newElementsIDs>78887FCD-6E01-002F-A68F-A31AB273C9BE</newElementsIDs>
+<usedAttributes>
+<attributeRef>78887FCD-6E01-002F-A68F-A31AB273C9BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

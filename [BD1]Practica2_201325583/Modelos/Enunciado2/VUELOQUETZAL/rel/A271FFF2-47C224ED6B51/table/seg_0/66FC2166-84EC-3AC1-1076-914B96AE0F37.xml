@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66FC2166-84EC-3AC1-1076-914B96AE0F37" name="DESTINO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>C5750992-B7AE-99F3-F17F-56464B03883C</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="EF3C5B62-0F4A-AF79-2231-5C9A3502CA02">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>367EF1E6-9831-74B1-C8B4-9DD24AB4E54A</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C67544BB-4F7F-8663-D872-5A75E2B991CA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>FEE9CC8C-C0EB-58E5-71DA-653A341B42AA</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESTINO_codigo" id="CB09EDAF-F2EE-8166-DBFB-1C466583B620">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>6ABE9DA4-4F87-4C61-8F56-3301F2ACE32E</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05963AEE-783D-5F55-4CA9-0A1AD79EFE31" referredColumn="EF3C5B62-0F4A-AF79-2231-5C9A3502CA02"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69C64833-A135-EDC9-F14A-948DE96E8FFE" name="DESTINO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>A8AEA475-5824-F098-666E-40ACEFB81532</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF3C5B62-0F4A-AF79-2231-5C9A3502CA02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D83C1E56-BF6C-4626-3113-9313E1248177" name="DESTINO_DESTINO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>8039C346-0FAB-2E0A-709F-9B7B76856E0D</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB09EDAF-F2EE-8166-DBFB-1C466583B620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D91DEFAA-8487-439A-1D26-48BFA174951B" name="IDIOMA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>49DA5C4B-1298-DB80-687F-2AADEAB715E1</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="754C8752-1C2F-4DDE-E636-6BFC13AF4CC1">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>EF02FFC0-A988-2993-312E-783EEFE257D9</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="12BF5863-AFF8-E2A4-4E4E-D3D230C3DEBE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>6FB0B7F5-37D7-C570-0997-6F4B603CA803</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFC262A1-E721-F7EC-EB80-F08C0102F66C" name="IDIOMA_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>F38DF3B9-0447-3764-31E7-A26C2E9E2F3B</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="754C8752-1C2F-4DDE-E636-6BFC13AF4CC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="445CF448-76A4-21B0-A18B-FCAB47B2A184" name="IDIOMA_nombre_UN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>0BB5B3B7-96C0-232D-DADA-AFF31BB8C44B</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12BF5863-AFF8-E2A4-4E4E-D3D230C3DEBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

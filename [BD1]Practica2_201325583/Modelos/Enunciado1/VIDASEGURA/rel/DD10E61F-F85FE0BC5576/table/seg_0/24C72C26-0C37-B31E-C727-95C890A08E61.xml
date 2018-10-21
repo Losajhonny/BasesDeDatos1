@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24C72C26-0C37-B31E-C727-95C890A08E61" name="EMPLEADO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>79D74065-1809-5CDA-C1B3-67F3CC3D921F</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dpi" id="1242B6CC-382A-E9B9-B433-17E71F65A5EB">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>855D8A33-AE61-A998-80D8-27B487A8D2CD</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="109FB684-76D6-60F7-5955-2D4343FCE22C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>9E2BFA0A-42A8-3B9D-85EA-F21A78F1BB99</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="F3E4E6B6-E232-3153-780B-E70C41D7CAA7">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>15C2510A-2F55-EB88-A041-4B7DCE1EDED8</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nac" id="8EB265D6-8CDD-7EDD-8722-7DD659F5A411">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>5BE2EF0E-06FA-5DE4-79D0-CB3FF9F99A17</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ini" id="0A819FB1-7F4C-38AC-064A-8EA0BD43112C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>F26E15EA-587C-ADFF-E29A-89560ED6166C</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="2BC71B19-D0FD-2E3C-CCEF-95C48D04076A">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>FC3996D6-7E08-9CB8-C935-FFD20C1B858C</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="3699B420-583A-766D-1410-D2749649B548">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>C3D96373-1FF1-61FE-DB30-63D47B0A1F51</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="BC313719-D548-5503-C51B-BABE55D7B837">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>BF576A30-2AFB-6D69-DF1A-938A04047B36</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="F8808E92-8BB4-40AA-D671-82ABD7FC5065">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>7219BE91-5FCD-F818-20AC-7847B9E19FFE</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puesto" id="6B7C9120-06EC-5327-7CFF-0D6050932253">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>853162C0-8A01-E698-FDEE-C08802FAA790</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADO_dpi" id="DAC75515-A1B1-D0D3-012B-0B0657B871CC">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>720D3597-E421-241F-E12E-39A0401288F3</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BBF43F2-06F7-AD4B-59E8-E92B83C696C2" referredColumn="1242B6CC-382A-E9B9-B433-17E71F65A5EB"/>
+</associations>
+</Column>
+<Column name="DEPTO_codigo" id="C36C4092-AE62-E505-7E8A-DB0B8615F831">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>232E6EF7-82DF-5660-491F-C406CC379F9B</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90835CA4-CD8A-962F-1BC0-BB3F2393DB9F" referredColumn="334571BE-559B-2C6C-20C9-B57912792725"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92D0C9CB-3970-F79F-97A6-DFB4D2A9CB59" name="EMPLEADO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>838D2B5C-20AF-8E9D-B339-085CEFF57E21</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1242B6CC-382A-E9B9-B433-17E71F65A5EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACA304F2-574D-6F9C-5E1A-F292AAEBF61A" name="EMPLEADO_EMPLEADO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:50 UTC</createdTime>
+<generatorID>836A6B02-0A0D-3938-0886-C42CF6E9603D</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAC75515-A1B1-D0D3-012B-0B0657B871CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABC86043-8835-BB0D-E4DA-8D49E1DF8F20" name="EMPLEADO_DEPTO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:50 UTC</createdTime>
+<generatorID>705F30F6-F947-5184-F661-D6F462D11CA2</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C36C4092-AE62-E505-7E8A-DB0B8615F831"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

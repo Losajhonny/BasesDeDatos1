@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="37F8905E-DD46-0987-B150-3B8C79F4DD0B" containerWithKeyObject="2F90FAE1-0C33-BDB0-ECF6-73022CB0BA3E" localFKIndex="B9FF8F77-2AAF-D84D-ACEC-918114B3F65B" name="TRIPULACION_EMPLEADO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>849892C7-5FFB-89D2-C035-B0D3501D8B8A</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>0A267CF9-FC0A-E99D-EBBA-0AB0767812A1</referredTableID>
+<keyObject>D8CF6381-06C4-8A5A-BFBE-C07F4E8047A6</keyObject>
+<referredKeyID>D8CF6381-06C4-8A5A-BFBE-C07F4E8047A6</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

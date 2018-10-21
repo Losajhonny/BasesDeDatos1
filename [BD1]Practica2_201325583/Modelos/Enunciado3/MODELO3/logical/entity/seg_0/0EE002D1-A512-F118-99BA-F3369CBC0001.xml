@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0EE002D1-A512-F118-99BA-F3369CBC0001" name="DENUNCIA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:18:01 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha" id="226A25D9-70D3-D48C-7E0B-5E440C855E4A">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:18:07 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_desaparecido" id="2DAF7EB6-9DC7-FB99-0AE1-EFBF72B08316">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:18:20 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="8630E601-CBB1-78BC-F295-833A80EAB14C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:18:47 UTC</createdTime>
+<generatorID>D96A7AA4-36D8-A0D9-5076-BB35F3CBD977</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<referedAttribute>7E816331-2C9C-8C44-72EF-A9F0CA1B1C4C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cui" id="3CD769B9-F4CA-81BA-1464-28557C371645">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:18:58 UTC</createdTime>
+<generatorID>9D0C13EE-0F6E-456A-94A7-6D644DD4FD0F</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<referedAttribute>8BCFAE4F-C455-890B-2A5D-991945DD4390</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5F680CEE-4F8F-BE43-A614-FD7C0BDED9CA" name="DENUNCIA PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:19:28 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3CD769B9-F4CA-81BA-1464-28557C371645</attributeRef>
+<attributeRef>8630E601-CBB1-78BC-F295-833A80EAB14C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

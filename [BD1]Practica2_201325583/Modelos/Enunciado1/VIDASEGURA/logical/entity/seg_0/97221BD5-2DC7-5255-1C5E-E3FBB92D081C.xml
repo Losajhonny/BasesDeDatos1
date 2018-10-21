@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97221BD5-2DC7-5255-1C5E-E3FBB92D081C" name="PAGO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:38:22 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="correlativo" id="EE95DA80-4D45-EE28-B423-7675F8D44CE1">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:38:27 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tarifa" id="04F022C9-E9E7-9603-E82A-4510F79C10D5">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:38:36 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mora" id="3B154A35-3CDA-B050-2C4F-666401E4E3D8">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:38:50 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="8E8800C3-B15A-F244-CCAC-A89FDDC43137">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:39:05 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="forma_pago" id="A154D2EF-701B-8938-AD0F-EA1B46661693">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:39:16 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="C9FC5424-47C9-850B-B1DF-F9999CEC0B0B">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:39:29 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="992F5B31-1C71-1443-FA43-C0DD2433A1E9">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:40:07 UTC</createdTime>
+<generatorID>1E7CD4AF-6404-7D4A-03A8-3566EB263F64</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<referedAttribute>0F87B306-6384-878B-11A8-004B8E2F4747</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dpi" id="06F97DC9-CD37-D7BB-7EDB-DA8B228C8F34">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:40:14 UTC</createdTime>
+<generatorID>8F6AB3A6-7FA6-DFE7-30D6-FFBB0326FC53</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<referedAttribute>855D8A33-AE61-A998-80D8-27B487A8D2CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cui" id="6F348B95-1957-C27C-4AE8-58B30DA321B4">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:42:49 UTC</createdTime>
+<generatorID>F09927CA-8BE7-C2DF-01B4-42FD6C0B03DE</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<referedAttribute>A3771948-0CA9-D80A-367E-45265227CC07</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDE6328C-90DB-40A3-394E-9C6CE4B96E6A" name="PAGO PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:38:36 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE95DA80-4D45-EE28-B423-7675F8D44CE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

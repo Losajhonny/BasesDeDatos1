@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA6DDCD7-2354-0DE1-A104-9F8B489BEE65" name="DENUNCIANTE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:17:12 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cui" id="8BCFAE4F-C455-890B-2A5D-991945DD4390">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:17:22 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="74F04595-9C45-088C-5009-4510935CAAD8">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:17:33 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="82DDA76A-CA81-4365-D767-CCE6AD382D44">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:21:20 UTC</createdTime>
+<generatorID>5AC8C46B-2C2C-5C6A-022B-C20ABB4E3AB3</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<referedAttribute>D21DFE67-F610-0A1B-CAFC-E33075A82F07</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D34FFF9-A2FD-8677-28B6-2FF9FE51AC19" name="DENUNCIANTE PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:17:32 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8BCFAE4F-C455-890B-2A5D-991945DD4390</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

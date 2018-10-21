@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A899A43F-A028-76B7-0733-E28DD08D41DE" name="FUNCION">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>3A54F98D-DACA-831B-ADBB-2C6085E168B0</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="804A3AA3-3FA5-6E06-1821-4EBD710E6A74">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>831765B5-4B97-7B90-FAD1-A93ABF6D22B6</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="036DC042-78BF-2606-C05B-E82F7DE0D3EA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>574EE7BB-205E-1BD0-9791-017FDB480590</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="5A428F9E-79B5-F836-D3FF-316E894EFC88">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>5CD6D340-F3B4-25E0-6D43-47A785187BE2</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPTO_codigo" id="31EFE912-1A3E-6B15-8344-8E0528E02CE2">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>CF8192E6-89FD-0081-4076-36A1241EECF0</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B81F599F-DC87-2876-A04E-C4DB16BBF1A6" referredColumn="334571BE-559B-2C6C-20C9-B57912792725"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="355ED784-FA38-AE34-B22C-45C0D3CD6FA6" name="FUNCION_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>3F13BCFB-4BC3-BD5C-0319-59F724AE8D13</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="804A3AA3-3FA5-6E06-1821-4EBD710E6A74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD209C62-F077-E7CB-F9D7-DAB26B8BF0F6" name="FUNCION_DEPTO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:50 UTC</createdTime>
+<generatorID>526C3645-9EE6-E90A-B29C-14755F95EAB6</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31EFE912-1A3E-6B15-8344-8E0528E02CE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

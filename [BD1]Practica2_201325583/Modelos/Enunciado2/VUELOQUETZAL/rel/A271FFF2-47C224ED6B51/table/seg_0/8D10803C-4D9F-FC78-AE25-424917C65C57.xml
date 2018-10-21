@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D10803C-4D9F-FC78-AE25-424917C65C57" name="MANTENIMIENTO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>D824F6A2-72E2-7D81-36D5-1A676E55ECB3</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="A021370B-821B-5C11-E119-3A26E1EF4FDA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>885BBCF4-36EF-171D-00C8-8C3BF7D48509</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_programado" id="87DAA4FA-E6D0-E185-BBAB-548D53D30F3D">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>C0BB39AC-B71B-B6E0-BD98-5A92D6777EE0</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVION_codigo" id="566C667D-01A8-759E-491E-4A3C8542594F">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>2DE9A88B-E72E-9BF0-0B21-E8AEC8D47F53</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BB54AAF-9D75-33E1-3584-32581A5CA6F6" referredColumn="C0EF0F54-C6F2-D501-0167-BF0826F29867"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04F86BF7-2B2C-34AD-24E6-61CC71638522" name="MANTENIMIENTO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>10515A77-84FC-4B93-1CA0-D493B715E200</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A021370B-821B-5C11-E119-3A26E1EF4FDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2DA15B5-FA28-C79D-17A1-23C0C363EF82" name="MANTENIMIENTO_AVION_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>ADFF0E0F-2ACC-0B53-896B-0AE16F7D8D40</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="566C667D-01A8-759E-491E-4A3C8542594F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BF752328-FA24-53F5-3142-9F2D17FE8C86" containerWithKeyObject="0320AF87-C139-3A0B-3B37-E96471A730DE" localFKIndex="944B7DB9-F8AE-A6CE-B250-80277B1AE4D8" name="VICTIMA_ADN_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>254303A9-38EB-D101-5E87-87530239BDF8</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>85340E69-400C-C72C-6271-F06C028EFF28</referredTableID>
+<keyObject>996A3E4F-4F80-47BF-661E-150881748223</keyObject>
+<referredKeyID>996A3E4F-4F80-47BF-661E-150881748223</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

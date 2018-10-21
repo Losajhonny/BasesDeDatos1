@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="835F0CB9-40A4-B981-E15E-1569F3CFF071" name="TIPO_UBICACION">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>B1508547-3D69-6AE9-26DA-B92A5B72DCFE</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="9EAC247C-D5AC-8B1F-4F46-8E6D6ECA51BD">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>DCDC5CBB-8C35-3EB5-DD5B-D730B0788B2A</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="45B87D81-FDB6-84C3-9E40-E600C71BDA16">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>31B4EBA3-ACB8-153A-5E94-78ADD94C34F9</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EAE2B28-DF74-7D04-D3E2-2DF73695A4D9" name="TIPO_UBICACION_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>F7F83A11-A39C-D328-0527-C1F677FBFDD0</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EAC247C-D5AC-8B1F-4F46-8E6D6ECA51BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA041723-289B-4729-8B7A-53F89612B65E" name="TIPO_UBICACION_nombre_UN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>70F71D79-5692-4EEB-2A4D-4230E94B88A6</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45B87D81-FDB6-84C3-9E40-E600C71BDA16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

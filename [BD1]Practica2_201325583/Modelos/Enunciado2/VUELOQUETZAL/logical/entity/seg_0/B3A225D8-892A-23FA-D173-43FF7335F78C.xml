@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3A225D8-892A-23FA-D173-43FF7335F78C" name="MECANICO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:55:43 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="hora" id="0368797C-05CF-6519-3BF0-56F2AC1A4942">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:55:49 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacion" id="BF55A2BB-AD7C-92F0-5029-CE48160387EE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:56:14 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cui" id="4FC0567A-5688-BEE7-CFF0-CA3C6BF5D9E5">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:57:23 UTC</createdTime>
+<generatorID>0C787E39-24FF-8405-7BF1-7262AB49F6BB</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<referedAttribute>FBCBF1B5-B889-383E-07B0-A33BC1038235</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="F1761F0B-1980-B3DE-CD5F-E997AD14F8D0">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:58:03 UTC</createdTime>
+<generatorID>7CEE2709-4F5E-683C-445D-30FD6A41B2C4</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<referedAttribute>885BBCF4-36EF-171D-00C8-8C3BF7D48509</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1BCAED4-39F2-4620-2C3C-02842DC0A14B" name="MECANICO PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:57:45 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FC0567A-5688-BEE7-CFF0-CA3C6BF5D9E5</attributeRef>
+<attributeRef>F1761F0B-1980-B3DE-CD5F-E997AD14F8D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

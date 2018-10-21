@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B66C0EC-8492-DB05-1EB6-726D94A0D9F9" containerWithKeyObject="6A27B18A-8988-64A6-38CB-2CD8C4E99703" localFKIndex="22C1FE55-A6C3-62CA-DD49-A67257BCE280" name="PAPELERIA_SEGURO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:50 UTC</createdTime>
+<generatorID>5F96A384-8C7F-EB1C-0B80-25B4B4B998F1</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>0C99D593-3335-6BA6-9818-8CDEF63111A9</referredTableID>
+<keyObject>D131518B-863E-2C4D-677D-E6E78E64BEF1</keyObject>
+<referredKeyID>D131518B-863E-2C4D-677D-E6E78E64BEF1</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

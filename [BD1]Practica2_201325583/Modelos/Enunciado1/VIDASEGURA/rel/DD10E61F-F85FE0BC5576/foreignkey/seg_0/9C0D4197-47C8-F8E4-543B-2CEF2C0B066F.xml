@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9C0D4197-47C8-F8E4-543B-2CEF2C0B066F" containerWithKeyObject="59A01B1F-0DFB-9D97-CF26-07A2C25651F7" localFKIndex="33DCDAE5-B27F-7374-B6A0-6AF3AA693D09" name="POLIZA_CLIENTE_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>0FFC5FD6-2392-318D-8A57-3DB964D38023</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>E5893C52-2C71-D174-C0DE-C6DAF331017E</referredTableID>
+<keyObject>9A51A437-3B61-1460-2C13-153C6EBE7DC3</keyObject>
+<referredKeyID>9A51A437-3B61-1460-2C13-153C6EBE7DC3</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

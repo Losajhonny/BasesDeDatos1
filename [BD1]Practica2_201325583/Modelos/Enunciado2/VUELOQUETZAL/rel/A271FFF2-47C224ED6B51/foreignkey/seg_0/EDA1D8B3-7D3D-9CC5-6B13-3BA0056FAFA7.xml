@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDA1D8B3-7D3D-9CC5-6B13-3BA0056FAFA7" containerWithKeyObject="CB90C403-9CE3-D8A6-BE6F-5628A1E9C29A" localFKIndex="5DFFC800-6B13-F0B9-4F81-C3366BD4893D" name="PAGO_BOLETO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>9646FE48-F4B5-4C81-F9FD-8F0CF4DA5353</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>5C7BDD8B-8B60-AAF6-557C-EEB7AF9251E3</referredTableID>
+<keyObject>9DD2D64E-9466-98B2-8297-A66F5CAB49D9</keyObject>
+<referredKeyID>9DD2D64E-9466-98B2-8297-A66F5CAB49D9</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECD5106E-15AD-A011-6E46-E61970AD68D3" name="ASISTENCIA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>57C65117-383F-282D-FB49-ACB0D55F69B0</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hora_entrada" id="088690C0-8C14-4600-CB7F-E04413F2B068">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>CD5A7BA8-DF6F-105B-0DED-17B7475DCD6B</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_salida" id="7337CEAC-CEDC-2985-99DC-351FB44DB26C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>750BCB7C-D27C-8540-5C7C-5DD48562ABE4</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_asistencia" id="F19286D3-099A-2F46-744A-4AE4058FCE7C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>8F2801C8-E3A0-210E-5AC5-027F440BC0CC</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="247B0F12-A85D-0F53-513F-910CC8EFF010">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>FD7F3CD3-5788-ABC7-CCDB-BC8D9A1B84F9</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JORNADA_codigo" id="D79237F1-46E4-484B-2689-9FA256885A45">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>E141F771-BB85-D849-9C6D-7A2B54723FA9</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53715F81-67B2-4781-8C6A-B9014A5A2460" referredColumn="AED73259-7727-3FA1-75DF-1C77A31440FB"/>
+</associations>
+</Column>
+<Column name="EMPLEADO_cui" id="FFB8998E-3D0F-4A2F-A023-B9437708C69A">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>1C94F270-6B7C-A668-4D51-9146179AA8AD</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4B1FA4F-5E09-66FD-1741-B3BC97F0699B" referredColumn="BBC1353E-B203-9957-A265-473825B5D9EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90648FB8-FA62-5497-F7B5-3DA0290A11DE" name="ASISTENCIA_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>7F5E81C8-70CF-4A38-B267-3E868AE08CF4</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="1A534919-3494-7A19-74D4-FEBD8CB03D81" name="ASISTENCIA_JORNADA_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>E2E2B4B0-DE37-663B-1293-69C91B37581C</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D79237F1-46E4-484B-2689-9FA256885A45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDE6651A-297B-EBEA-1AD3-1EFC2EA86456" name="ASISTENCIA_EMPLEADO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>ECE64ADD-C062-63E2-89EE-EEF311F81B09</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFB8998E-3D0F-4A2F-A023-B9437708C69A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

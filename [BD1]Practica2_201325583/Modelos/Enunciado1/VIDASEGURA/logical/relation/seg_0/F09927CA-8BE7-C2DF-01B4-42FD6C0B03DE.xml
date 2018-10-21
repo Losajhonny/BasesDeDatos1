@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="F09927CA-8BE7-C2DF-01B4-42FD6C0B03DE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:42:49 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<sourcePk>F354F174-E7A1-F3A3-1299-65C78FFE0E80</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>72426491-E780-1C80-C710-84B3072FB68E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>97221BD5-2DC7-5255-1C5E-E3FBB92D081C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

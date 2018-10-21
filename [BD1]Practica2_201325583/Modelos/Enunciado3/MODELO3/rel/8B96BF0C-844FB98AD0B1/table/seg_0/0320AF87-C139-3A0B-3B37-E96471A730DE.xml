@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0320AF87-C139-3A0B-3B37-E96471A730DE" name="VICTIMA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>F83335DD-F5D3-096D-074C-7449CECFE919</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="F990C8A8-F19A-9F9B-152C-7FE81B5D1020">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>7E816331-2C9C-8C44-72EF-A9F0CA1B1C4C</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="174F1157-4436-4F95-95A1-F041B7C16CEA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>C30286AE-7BD3-11BE-972D-404717D03B35</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="BDE800D8-72E0-E331-107C-4AE5C38C4350">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>833D1902-62BA-DEA7-CD6E-6EF88AD261B3</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nac" id="E32118E1-3A4E-BE11-A1E6-45BE7A59F0D6">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>1FFEA5CC-4556-9FD7-0824-681F03CD9E35</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="8958C4C7-1B7B-5C28-FFB7-A9C1F3E1104C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>F273BBAA-DE23-844F-31C0-280F035C381B</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profesion" id="EC448362-680A-4EB3-A2F6-2A094032497A">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>5EDB8948-058E-6DA9-3238-DE898D903C05</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_VICTIMA_codigo" id="2013115B-3064-B521-8DC5-0B056013F422">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>E7C12DA6-671C-1918-8A91-C3D3F9804ABC</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34E01353-780E-B790-24A5-F279CD99C539" referredColumn="A5C65573-C0E7-E861-E8CB-587FD29FBF38"/>
+</associations>
+</Column>
+<Column name="ADN_codigo" id="1ED81538-5D92-51C1-4C0C-3352E551392E">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>0B96F1D4-003E-A40F-591F-78F69799B344</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF752328-FA24-53F5-3142-9F2D17FE8C86" referredColumn="77979444-C8C7-A3BB-6816-7D51FE255816"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6298865-963B-276A-4C36-BBA924E57DA8" name="VICTIMA_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>791E5703-CCEF-8644-DD64-1EFDD2D3CCCA</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F990C8A8-F19A-9F9B-152C-7FE81B5D1020"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD721E56-0F3C-994F-FCD0-FA4C6EBF5B6F" name="VICTIMA_TIPO_VICTIMA_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>C05C41A3-56DE-7630-57F4-61B0AB6BF0F1</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2013115B-3064-B521-8DC5-0B056013F422"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="944B7DB9-F8AE-A6CE-B250-80277B1AE4D8" name="VICTIMA_ADN_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>254303A9-38EB-D101-5E87-87530239BDF8</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ED81538-5D92-51C1-4C0C-3352E551392E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

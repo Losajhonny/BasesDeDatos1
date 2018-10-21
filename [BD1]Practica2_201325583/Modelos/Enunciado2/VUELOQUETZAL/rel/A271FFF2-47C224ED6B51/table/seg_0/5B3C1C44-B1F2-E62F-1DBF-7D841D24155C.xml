@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B3C1C44-B1F2-E62F-1DBF-7D841D24155C" name="VIAJE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>4D107778-3014-F140-885C-44477F63BE6F</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_vuelo" id="FBD0227A-8A67-5959-571C-ACDFC28C47A8">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>4DB3ECB8-9E89-A5DA-DD25-A687258C505D</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_galones" id="73E2C11F-FF38-D58F-BBDF-91AE048E26E1">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>EE3C7FCC-CECB-C62D-385E-6B575AF210C1</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="distancia_max" id="5BE63445-5C77-FCEE-D0C2-D249F9E54F78">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>0BB671C2-2855-9E8B-4BA2-2907516316B8</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVION_codigo" id="B94627E2-B33F-ADBB-01B5-F651F189C295">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>5FCC1942-023D-DC81-20B0-1ED307BC8BEC</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48E0F14E-3942-B360-5545-62FE3D06150B" referredColumn="C0EF0F54-C6F2-D501-0167-BF0826F29867"/>
+</associations>
+</Column>
+<Column name="fecha_despegue" id="760E1376-3EE1-9E06-B83B-35B7481E1F84">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-04 13:02:34 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_aterrizaje" id="0DB2BD85-F15C-678E-EC36-F7050BC341C7">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-04 13:02:34 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A90BE255-A366-43F4-3D8A-6EF1055B4A46" name="VIAJE_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>1BA61696-10A9-429D-B5DF-4BDC37DD26F7</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBD0227A-8A67-5959-571C-ACDFC28C47A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="037252F0-4640-9B5C-6598-FD02C1BEE015" name="VIAJE_AVION_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>8878D57A-0DBA-64B5-50A9-CF1F178E5D29</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B94627E2-B33F-ADBB-01B5-F651F189C295"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

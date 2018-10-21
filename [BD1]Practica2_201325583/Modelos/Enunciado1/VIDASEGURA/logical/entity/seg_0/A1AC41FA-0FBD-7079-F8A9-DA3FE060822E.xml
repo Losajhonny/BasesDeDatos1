@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1AC41FA-0FBD-7079-F8A9-DA3FE060822E" name="DEPTO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:20:47 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="97E8CBA2-496C-0138-8532-3F9EE3880B36">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:20:59 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="F3A20C5D-9B1E-07F9-B4FD-EF2D91E1EA56">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:21:07 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo1" id="7A56205D-1F08-00F8-0E9C-2E51E8DF23F8">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:21:48 UTC</createdTime>
+<generatorID>7403F5A0-6CD0-2CFD-A9AA-600D2EAADC67</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<referedAttribute>894BA2B9-EAB1-FF7E-FC77-628BEA06D390</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD683EF1-69EA-ED24-A46D-7BE906E0F1A4" name="DEPTO PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:21:06 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97E8CBA2-496C-0138-8532-3F9EE3880B36</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E4D674AA-EAB1-40F2-E551-C553D76833D4" name="DEPTO_UN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:21:25 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<newElementsIDs>F3A20C5D-9B1E-07F9-B4FD-EF2D91E1EA56</newElementsIDs>
+<usedAttributes>
+<attributeRef>F3A20C5D-9B1E-07F9-B4FD-EF2D91E1EA56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

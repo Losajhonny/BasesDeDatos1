@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FFF005C-3F7A-25B0-4B15-FA3245A42353" name="PAPELERIA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:32:46 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="88B86C96-0763-B989-1AEF-DEB42D4A5C77">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:32:55 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="1E1B2FF1-42C3-591A-E21D-CAC7BF205C73">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:33:05 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="E15A2CDC-DD1F-73AA-D071-8E0A78E5F3F2">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:33:16 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo1" id="4DB78E4A-D5E8-B8A7-7E1F-CD904E7FB285">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:34:15 UTC</createdTime>
+<generatorID>5F96A384-8C7F-EB1C-0B80-25B4B4B998F1</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<referedAttribute>F4E7CF56-483B-223E-C6F4-3DE9420F4A46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE5523BE-276F-3B0E-DD44-8946CE3A81BA" name="PAPELERIA PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:33:04 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88B86C96-0763-B989-1AEF-DEB42D4A5C77</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5509C4A8-67B4-CBC4-46CB-DF928B027024" name="PAPELERIA_UN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:33:51 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<newElementsIDs>1E1B2FF1-42C3-591A-E21D-CAC7BF205C73</newElementsIDs>
+<usedAttributes>
+<attributeRef>1E1B2FF1-42C3-591A-E21D-CAC7BF205C73</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

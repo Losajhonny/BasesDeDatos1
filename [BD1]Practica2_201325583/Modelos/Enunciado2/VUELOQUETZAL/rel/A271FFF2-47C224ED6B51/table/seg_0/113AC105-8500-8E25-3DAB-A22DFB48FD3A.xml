@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="113AC105-8500-8E25-3DAB-A22DFB48FD3A" name="LENGUAJE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>2A969557-1F93-7430-B81F-47773B501440</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDIOMA_codigo" id="42BEEBC3-4857-B792-8B3A-8D4001FC2615">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>A8F878C8-9D73-FDA4-839D-BBDED777E135</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BD7912C-F9C0-1947-9F43-D5A997A4EE23" referredColumn="754C8752-1C2F-4DDE-E636-6BFC13AF4CC1"/>
+</associations>
+</Column>
+<Column name="EMPLEADO_cui" id="4B0B3B13-D6D5-6BBD-2F9A-F7E47C0504AB">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>33787177-1BA1-C480-AD96-256CA45283C5</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BF9E152-00E2-6161-6F9B-0E45767DB58E" referredColumn="BBC1353E-B203-9957-A265-473825B5D9EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9DD9A1A-2F76-5EB4-7F11-B0961714E753" name="LENGUAJE_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>A0E6A9E1-A83E-EA05-B0F2-434317713DF3</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42BEEBC3-4857-B792-8B3A-8D4001FC2615"/>
+<colUsage columnID="4B0B3B13-D6D5-6BBD-2F9A-F7E47C0504AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8AC0599-730C-E038-BE7D-853A40DCEE55" name="LENGUAJE_EMPLEADO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>A1F53C43-2488-A29B-C528-80D43CA5D549</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B0B3B13-D6D5-6BBD-2F9A-F7E47C0504AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EE09A6E-F7D0-C71D-F71D-92DD4104571F" name="LENGUAJE_IDIOMA_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>6604E4DB-4BB5-8301-1DF4-18F0528EF9DD</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42BEEBC3-4857-B792-8B3A-8D4001FC2615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

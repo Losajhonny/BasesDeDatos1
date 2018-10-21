@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BA9A620-36F3-6B19-C60C-F8A8E2A1A176" name="VUELO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>2EA92D33-BE63-17EF-4A1C-6E46B8D6D56C</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VIAJE_no_vuelo" id="B38A839F-DF70-CB98-ADDA-8AB3F87E76F3">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>F5EABD27-A11F-0EC5-2C0B-3310DD261B44</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFEDCF03-88C6-AFCE-FFA1-1962749B687D" referredColumn="FBD0227A-8A67-5959-571C-ACDFC28C47A8"/>
+</associations>
+</Column>
+<Column name="BOLETO_num_boleto" id="7E81984A-F117-A1F7-314C-BF17845331FC">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>4C59B7F6-3710-4C38-78A0-FBE6F3298206</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05E519D8-87F9-188E-E186-8B60B16D6FE3" referredColumn="A0E51C53-323F-55A6-FB11-5EABA5CA02E2"/>
+</associations>
+</Column>
+<Column name="DESTINO_codigo" id="4FDCCF6D-341A-1AFE-25D4-42298AB856DE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>92A7DEB3-8D63-1FCF-1CA3-A21E0BB87C4A</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="740B1581-E6EF-4FDA-6C5E-7D485B45AA12" referredColumn="EF3C5B62-0F4A-AF79-2231-5C9A3502CA02"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EEEC2A0-E9CA-BCF6-4189-A7DC96101714" name="VUELO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-04 13:01:48 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B38A839F-DF70-CB98-ADDA-8AB3F87E76F3"/>
+<colUsage columnID="7E81984A-F117-A1F7-314C-BF17845331FC"/>
+<colUsage columnID="4FDCCF6D-341A-1AFE-25D4-42298AB856DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F49D24A-31B1-10FD-DCC2-5382FAFA9F60" name="VUELO_VIAJE_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>2571AF01-3730-E14F-08EF-CF644AA36B40</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B38A839F-DF70-CB98-ADDA-8AB3F87E76F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AE62458-36E1-0E6D-BCBE-B3DB5E778E97" name="VUELO_BOLETO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>40466400-B8CF-7347-0525-36314FE7CF55</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E81984A-F117-A1F7-314C-BF17845331FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C3165C9-4B7D-FCF6-5E43-465722137AEB" name="VUELO_DESTINO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>470DA524-42DB-2C61-4E29-79CA1C5C97A1</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FDCCF6D-341A-1AFE-25D4-42298AB856DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

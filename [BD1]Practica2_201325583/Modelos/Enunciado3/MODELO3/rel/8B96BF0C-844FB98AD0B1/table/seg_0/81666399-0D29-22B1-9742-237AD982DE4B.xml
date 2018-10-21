@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81666399-0D29-22B1-9742-237AD982DE4B" name="VICT_CARACT">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>A242E5FE-E90B-7351-F370-68E3A0EAE8D1</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VICTIMA_codigo" id="A2A5FA23-7539-4534-8BD2-55A3D0F3C66D">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>C33B4F36-8EB3-35E0-685E-468CF2AEFD95</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A948B25F-15E5-03F2-7F75-35EF9D3D7334" referredColumn="F990C8A8-F19A-9F9B-152C-7FE81B5D1020"/>
+</associations>
+</Column>
+<Column name="CARACTERISTICA_correlativo" id="170019B7-00CB-2DF9-47F5-910397F88B89">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>F6615DAB-23ED-ECEE-EFC9-64C4B80FB794</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31FDB310-5688-E706-AE67-1846D53D1081" referredColumn="9E205AEA-1B21-665B-A4B4-2C7ABE5DBF06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="012C5B64-7854-19CF-844A-54FDDED4FFE0" name="VICT_CARACT_CARACTERISTICA_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>825D165C-7FEA-A81C-DB26-3072B1CEDE67</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="170019B7-00CB-2DF9-47F5-910397F88B89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AF15C0A-0FB0-A1C2-1704-0256E45DC441" name="VICT_CARACT_VICTIMA_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>437CF3CD-3E7A-CDB2-C478-E664EBB585CE</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2A5FA23-7539-4534-8BD2-55A3D0F3C66D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

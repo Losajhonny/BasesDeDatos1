@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F3224B4-54BB-9361-1D6D-A5E7C3A4BD2E" name="TIPO_VICTIMA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:15:35 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="4B819702-85CA-C5B4-4E04-1CFFD03D2866">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:15:42 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="B7BCDFDF-D705-1881-D8D4-E8DCE13B031B">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:15:51 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5AAE544-E9C3-E663-CB70-AF64D70A71D0" name="TIPO_VICTIMA PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:15:50 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B819702-85CA-C5B4-4E04-1CFFD03D2866</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B9894DE7-B1B0-AA16-3819-18D9BFB71997" name="TIPO_VICTIMA_UN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:16:13 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<newElementsIDs>B7BCDFDF-D705-1881-D8D4-E8DCE13B031B</newElementsIDs>
+<usedAttributes>
+<attributeRef>B7BCDFDF-D705-1881-D8D4-E8DCE13B031B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

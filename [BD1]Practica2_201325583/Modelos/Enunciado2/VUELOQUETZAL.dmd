@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="VUELOQUETZAL" id="6EF603E8-990A-C4E8-5769-262E7BB4A51E" version="3.5">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:09:10 UTC</createdTime>
+<ownerDesignName>MODELO1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6EF603E8-990A-C4E8-5769-262E7BB4A51E</designId>
+</OSDM_Design>

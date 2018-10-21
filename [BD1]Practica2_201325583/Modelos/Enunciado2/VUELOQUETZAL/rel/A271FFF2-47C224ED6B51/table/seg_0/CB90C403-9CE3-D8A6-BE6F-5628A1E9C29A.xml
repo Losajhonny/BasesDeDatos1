@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB90C403-9CE3-D8A6-BE6F-5628A1E9C29A" name="PAGO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>3EF70EA0-92BF-7437-C8E4-0ACF9EBC117B</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="correlativo" id="9037E3FA-D8E2-B0D4-4091-331BBBD32506">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:40:55 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_tarjeta" id="32FD4581-375E-C45F-0BAE-A0EAFCF3172F">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>F0DB8822-E707-A5A7-3215-5163D8CDDCB2</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_pago" id="3696DD97-EA6E-85BA-6BCD-BBC2D82D98A8">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>061A472A-BA94-8922-2977-75B497018605</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="C30A8E20-8B0A-C9F2-6E1F-92C71976C85C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>7CDFB061-A3EE-D0A7-8573-F28CA057486A</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASAJERO_cui" id="4B385E74-0993-1BB9-7CAC-15EF827870E3">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>5D9E22A5-DF92-9D88-68E3-C085AB9A7396</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5BECB78-EB2E-89B2-8FB9-2E47D2AAA5A0" referredColumn="229DE3AE-5C23-A78C-5827-E572DCE3DAD6"/>
+</associations>
+</Column>
+<Column name="BOLETO_num_boleto" id="976ED500-223B-0797-B9A7-FB9991DD99B0">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>911BD3CB-1222-5F4B-31F6-666C8A26284C</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDA1D8B3-7D3D-9CC5-6B13-3BA0056FAFA7" referredColumn="A0E51C53-323F-55A6-FB11-5EABA5CA02E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DE88B1F-9086-E041-AE76-C43C027B0B6D" name="PAGO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>9EF2000C-28E9-1D46-9EFF-FF9397A0AEBC</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9037E3FA-D8E2-B0D4-4091-331BBBD32506"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F45F947-7D05-455A-2262-66CF0EB754F3" name="PAGO_PASAJERO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>129E3D3F-7ED5-48B6-515B-F730786FF180</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B385E74-0993-1BB9-7CAC-15EF827870E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DFFC800-6B13-F0B9-4F81-C3366BD4893D" name="PAGO_BOLETO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>9646FE48-F4B5-4C81-F9FD-8F0CF4DA5353</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="976ED500-223B-0797-B9A7-FB9991DD99B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

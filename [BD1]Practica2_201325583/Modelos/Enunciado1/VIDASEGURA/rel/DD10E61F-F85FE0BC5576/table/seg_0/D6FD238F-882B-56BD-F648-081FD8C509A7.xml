@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6FD238F-882B-56BD-F648-081FD8C509A7" name="PAGO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>97221BD5-2DC7-5255-1C5E-E3FBB92D081C</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="correlativo" id="B887B0B6-9832-81A7-F4F6-877D33B7E41B">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>EE95DA80-4D45-EE28-B423-7675F8D44CE1</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tarifa" id="249B4738-09A4-0A55-33F8-3EA407902243">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>04F022C9-E9E7-9603-E82A-4510F79C10D5</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mora" id="9C4CB467-34F0-C0EC-ED58-C74BBC7A7F22">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>3B154A35-3CDA-B050-2C4F-666401E4E3D8</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="76BE4163-FBBC-8A90-32B0-BED992C921B8">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>8E8800C3-B15A-F244-CCAC-A89FDDC43137</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="forma_pago" id="21B00720-E084-C07E-D714-2FCC89AC2CA1">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>A154D2EF-701B-8938-AD0F-EA1B46661693</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="98AC1AB3-EB3C-75FF-E33F-E46E815318F6">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>C9FC5424-47C9-850B-B1DF-F9999CEC0B0B</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POLIZA_codigo" id="4EE06AFD-C093-181C-6122-93908F2923A6">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>992F5B31-1C71-1443-FA43-C0DD2433A1E9</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C36ACC9-1EE4-EAC3-5499-9815F8F3906C" referredColumn="7E96895B-1A9D-8552-B1DB-2D97CCB4DD62"/>
+</associations>
+</Column>
+<Column name="EMPLEADO_dpi" id="C0BC42EB-A183-3241-F4F5-270D63293105">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>06F97DC9-CD37-D7BB-7EDB-DA8B228C8F34</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2C2C205-8A80-BD73-A77D-C18999EA6501" referredColumn="1242B6CC-382A-E9B9-B433-17E71F65A5EB"/>
+</associations>
+</Column>
+<Column name="CLIENTE_cui" id="6862A6B4-3164-6DB1-843A-F5B7B114AAEE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>6F348B95-1957-C27C-4AE8-58B30DA321B4</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F10D074F-9C75-47CE-7F05-3D6E75A0A069" referredColumn="BF111BB3-230A-3694-8865-BD6F3AC97AF7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96FA157C-C938-95F4-8A32-240C8CBB85AC" name="PAGO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>FDE6328C-90DB-40A3-394E-9C6CE4B96E6A</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B887B0B6-9832-81A7-F4F6-877D33B7E41B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42B8C7DD-17A4-DB4D-0358-EF6B463D2417" name="PAGO_POLIZA_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>1E7CD4AF-6404-7D4A-03A8-3566EB263F64</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EE06AFD-C093-181C-6122-93908F2923A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A3742F2-CA96-18C8-ABEB-167CF08585C8" name="PAGO_EMPLEADO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>8F6AB3A6-7FA6-DFE7-30D6-FFBB0326FC53</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0BC42EB-A183-3241-F4F5-270D63293105"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="491FCEFB-DCF8-1280-C749-665D362F97BF" name="PAGO_CLIENTE_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>F09927CA-8BE7-C2DF-01B4-42FD6C0B03DE</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6862A6B4-3164-6DB1-843A-F5B7B114AAEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

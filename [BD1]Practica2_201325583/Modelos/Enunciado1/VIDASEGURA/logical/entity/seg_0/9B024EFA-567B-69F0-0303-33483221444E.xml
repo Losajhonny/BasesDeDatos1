@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B024EFA-567B-69F0-0303-33483221444E" name="POLIZA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:35:28 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="0F87B306-6384-878B-11A8-004B8E2F4747">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:35:34 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ini" id="2CC81D67-6BB6-DF08-E44C-1DC3E6BAE785">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:35:41 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fin" id="0AB042A9-5BC2-2EE8-611F-526A8CA69711">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:35:49 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="E2BF825A-2A7E-CF5A-8E6F-C2F9F3382E38">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:35:57 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dpi" id="AE99DFB0-39A8-A3A9-3D18-D7D56D4BBD56">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:36:24 UTC</createdTime>
+<generatorID>1726E3B6-E8B9-3C86-AA2A-9F546FA380F4</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<referedAttribute>855D8A33-AE61-A998-80D8-27B487A8D2CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo1" id="F3607D18-94D5-9A96-E0F3-20897E366914">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:36:42 UTC</createdTime>
+<generatorID>D8DF6232-5C0D-D774-D9AC-538EEA260D58</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<referedAttribute>F4E7CF56-483B-223E-C6F4-3DE9420F4A46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo2" id="6BF917BA-9988-038D-62D3-D7A8D8C9F52F">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:38:01 UTC</createdTime>
+<generatorID>07542768-DA8B-6511-D0C5-91CDE07F82D6</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<referedAttribute>128BFCAA-9121-A937-27A5-A9A05CE4627C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cui" id="158DDEA6-3D50-14E1-4D9C-EC262E3196CD">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:42:11 UTC</createdTime>
+<generatorID>0FFC5FD6-2392-318D-8A57-3DB964D38023</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<referedAttribute>A3771948-0CA9-D80A-367E-45265227CC07</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9F85A43-1D76-0AA3-99A2-B6B36881DFE5" name="POLIZA PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:35:40 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<engineerTo>
+<item key="DD10E61F-B81B-E75B-F481-F85FE0BC5576" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F87B306-6384-878B-11A8-004B8E2F4747</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

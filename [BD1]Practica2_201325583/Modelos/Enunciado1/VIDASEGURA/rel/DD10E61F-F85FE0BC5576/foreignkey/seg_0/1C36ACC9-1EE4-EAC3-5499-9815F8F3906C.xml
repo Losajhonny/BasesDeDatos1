@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1C36ACC9-1EE4-EAC3-5499-9815F8F3906C" containerWithKeyObject="D6FD238F-882B-56BD-F648-081FD8C509A7" localFKIndex="42B8C7DD-17A4-DB4D-0358-EF6B463D2417" name="PAGO_POLIZA_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:46:49 UTC</createdTime>
+<generatorID>1E7CD4AF-6404-7D4A-03A8-3566EB263F64</generatorID>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>59A01B1F-0DFB-9D97-CF26-07A2C25651F7</referredTableID>
+<keyObject>7AD78D6C-9DC0-9083-8EF8-3E8CA02586A9</keyObject>
+<referredKeyID>7AD78D6C-9DC0-9083-8EF8-3E8CA02586A9</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

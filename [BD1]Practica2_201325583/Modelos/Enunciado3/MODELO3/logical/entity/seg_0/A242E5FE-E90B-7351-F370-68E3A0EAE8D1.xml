@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A242E5FE-E90B-7351-F370-68E3A0EAE8D1" name="VICT_CARACT">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:38:56 UTC</createdTime>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="C33B4F36-8EB3-35E0-685E-468CF2AEFD95">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:39:19 UTC</createdTime>
+<generatorID>437CF3CD-3E7A-CDB2-C478-E664EBB585CE</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<referedAttribute>7E816331-2C9C-8C44-72EF-A9F0CA1B1C4C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correlativo" id="F6615DAB-23ED-ECEE-EFC9-64C4B80FB794">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:41:18 UTC</createdTime>
+<generatorID>825D165C-7FEA-A81C-DB26-3072B1CEDE67</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<engineerTo>
+<item key="8B96BF0C-1B9B-D556-B2C9-844FB98AD0B1" value="true"/>
+</engineerTo>
+<referedAttribute>128E9952-3E40-DA3B-2380-7EE29B3F3923</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

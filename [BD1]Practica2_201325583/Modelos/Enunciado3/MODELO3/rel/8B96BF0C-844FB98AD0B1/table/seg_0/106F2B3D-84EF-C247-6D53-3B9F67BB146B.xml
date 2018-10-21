@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="106F2B3D-84EF-C247-6D53-3B9F67BB146B" name="TIPO_VICTIMA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>8F3224B4-54BB-9361-1D6D-A5E7C3A4BD2E</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="A5C65573-C0E7-E861-E8CB-587FD29FBF38">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>4B819702-85CA-C5B4-4E04-1CFFD03D2866</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4512312C-5DE2-0496-0DF2-D8AA5F4EEACC">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>B7BCDFDF-D705-1881-D8D4-E8DCE13B031B</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D8D05EC-A7D5-DDEC-94E2-C48C76A496A1" name="TIPO_VICTIMA_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>B5AAE544-E9C3-E663-CB70-AF64D70A71D0</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5C65573-C0E7-E861-E8CB-587FD29FBF38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D6C4694-F8AC-1C64-5449-1B42127A9618" name="TIPO_VICTIMA_nombre_UN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>B9894DE7-B1B0-AA16-3819-18D9BFB71997</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4512312C-5DE2-0496-0DF2-D8AA5F4EEACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

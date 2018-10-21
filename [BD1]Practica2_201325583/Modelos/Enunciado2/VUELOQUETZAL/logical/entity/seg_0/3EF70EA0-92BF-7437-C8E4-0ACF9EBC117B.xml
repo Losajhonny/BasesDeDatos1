@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EF70EA0-92BF-7437-C8E4-0ACF9EBC117B" name="PAGO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:26:13 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="correlativo" id="8C1E3933-82AB-7AFB-4141-D8C1AE78F7C8">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:41:19 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_tarjeta" id="F0DB8822-E707-A5A7-3215-5163D8CDDCB2">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:26:19 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_pago" id="061A472A-BA94-8922-2977-75B497018605">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:27:04 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="7CDFB061-A3EE-D0A7-8573-F28CA057486A">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:27:17 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cui" id="5D9E22A5-DF92-9D88-68E3-C085AB9A7396">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:27:44 UTC</createdTime>
+<generatorID>129E3D3F-7ED5-48B6-515B-F730786FF180</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<referedAttribute>6ABC3C62-F0FC-813D-D634-B42EC4B47334</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_boleto" id="911BD3CB-1222-5F4B-31F6-666C8A26284C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:28:05 UTC</createdTime>
+<generatorID>9646FE48-F4B5-4C81-F9FD-8F0CF4DA5353</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<referedAttribute>9B01C92E-FB94-B4ED-7FA2-44F1877F0636</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EF2000C-28E9-1D46-9EFF-FF9397A0AEBC" name="PAGO PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:27:50 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C1E3933-82AB-7AFB-4141-D8C1AE78F7C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

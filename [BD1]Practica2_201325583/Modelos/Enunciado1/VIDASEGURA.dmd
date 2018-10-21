@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="VIDASEGURA" id="CF4018B3-B646-D6C5-7E4C-CDD427166FED" version="3.5">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 23:19:07 UTC</createdTime>
+<ownerDesignName>VIDASEGURA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CF4018B3-B646-D6C5-7E4C-CDD427166FED</designId>
+</OSDM_Design>

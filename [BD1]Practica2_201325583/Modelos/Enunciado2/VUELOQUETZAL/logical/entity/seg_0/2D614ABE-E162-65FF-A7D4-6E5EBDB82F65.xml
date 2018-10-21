@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D614ABE-E162-65FF-A7D4-6E5EBDB82F65" name="TIPO_EMPLEADO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:23:11 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="9229E69E-5D38-C239-C220-A318BD4CB13A">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:23:21 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C648ADDF-1DB3-6256-DC90-941A541BECAB">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:23:32 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="974A29EC-554E-37BD-68B9-F71288E1647A" name="TIPO_EMPLEADO PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:23:31 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9229E69E-5D38-C239-C220-A318BD4CB13A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B9147ABE-4CE0-877F-9109-C7A0149481D7" name="TIPO_EMPLEADO_UN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 17:23:48 UTC</createdTime>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<engineerTo>
+<item key="A271FFF2-1093-B154-B0E6-47C224ED6B51" value="true"/>
+</engineerTo>
+<newElementsIDs>C648ADDF-1DB3-6256-DC90-941A541BECAB</newElementsIDs>
+<usedAttributes>
+<attributeRef>C648ADDF-1DB3-6256-DC90-941A541BECAB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

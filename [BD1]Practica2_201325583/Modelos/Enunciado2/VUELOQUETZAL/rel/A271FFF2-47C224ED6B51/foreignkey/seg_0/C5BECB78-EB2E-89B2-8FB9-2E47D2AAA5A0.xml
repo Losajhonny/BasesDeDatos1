@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5BECB78-EB2E-89B2-8FB9-2E47D2AAA5A0" containerWithKeyObject="CB90C403-9CE3-D8A6-BE6F-5628A1E9C29A" localFKIndex="3F45F947-7D05-455A-2262-66CF0EB754F3" name="PAGO_PASAJERO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>129E3D3F-7ED5-48B6-515B-F730786FF180</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>81236586-DE23-4169-448C-D4A14353CFF6</referredTableID>
+<keyObject>A8D5628A-9933-0748-4A3C-3AC667BAD8A5</keyObject>
+<referredKeyID>A8D5628A-9933-0748-4A3C-3AC667BAD8A5</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

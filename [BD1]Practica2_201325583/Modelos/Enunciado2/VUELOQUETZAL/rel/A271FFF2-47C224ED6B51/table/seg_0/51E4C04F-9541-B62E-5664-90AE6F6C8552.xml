@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51E4C04F-9541-B62E-5664-90AE6F6C8552" name="MECANICO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>B3A225D8-892A-23FA-D173-43FF7335F78C</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hora" id="A798AB0C-F8B7-E166-DC52-133DC0908F09">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>0368797C-05CF-6519-3BF0-56F2AC1A4942</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacion" id="769DF009-353D-127E-95EE-CA3EE442D7C6">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>BF55A2BB-AD7C-92F0-5029-CE48160387EE</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADO_cui" id="F38E7230-6BB0-F7ED-0AD1-5D685C5A23E2">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>4FC0567A-5688-BEE7-CFF0-CA3C6BF5D9E5</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B835D59-521E-F8DC-6B11-20C49C8B43C1" referredColumn="BBC1353E-B203-9957-A265-473825B5D9EF"/>
+</associations>
+</Column>
+<Column name="MANTENIMIENTO_codigo" id="D2050ED8-DD90-DE2D-4C3E-6B777C7C3F2C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>F1761F0B-1980-B3DE-CD5F-E997AD14F8D0</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F63C02F4-F05A-F158-81E0-CEC9D315A148" referredColumn="A021370B-821B-5C11-E119-3A26E1EF4FDA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3ABA8531-C080-E4A5-6042-F96FEC00A7A1" name="MECANICO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>E1BCAED4-39F2-4620-2C3C-02842DC0A14B</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F38E7230-6BB0-F7ED-0AD1-5D685C5A23E2"/>
+<colUsage columnID="D2050ED8-DD90-DE2D-4C3E-6B777C7C3F2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0D6E3F4-556C-BC23-33D1-80B2341DF97D" name="MECANICO_EMPLEADO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>0C787E39-24FF-8405-7BF1-7262AB49F6BB</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F38E7230-6BB0-F7ED-0AD1-5D685C5A23E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E5765AD-C0EE-FC2C-F51D-84AA501DBD8A" name="MECANICO_MANTENIMIENTO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>7CEE2709-4F5E-683C-445D-30FD6A41B2C4</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2050ED8-DD90-DE2D-4C3E-6B777C7C3F2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

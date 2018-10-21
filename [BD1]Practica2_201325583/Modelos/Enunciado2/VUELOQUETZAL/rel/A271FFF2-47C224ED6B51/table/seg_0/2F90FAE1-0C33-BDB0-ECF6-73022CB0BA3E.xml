@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F90FAE1-0C33-BDB0-ECF6-73022CB0BA3E" name="TRIPULACION">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>2C45272B-5899-BDA7-CB61-F88717CBF49B</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLEADO_cui" id="8DF03101-E257-ED24-1D62-5F51B86169DD">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>BA43B6FB-C560-789C-410F-92EA22461B00</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37F8905E-DD46-0987-B150-3B8C79F4DD0B" referredColumn="BBC1353E-B203-9957-A265-473825B5D9EF"/>
+</associations>
+</Column>
+<Column name="VIAJE_no_vuelo" id="65EF1996-3B3F-D1F7-509E-5DE0C9E5B318">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>23BB2DEC-AACA-045E-800C-425299474A0D</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28A7D59B-EDCE-97C8-0E29-772E3CB6E153" referredColumn="FBD0227A-8A67-5959-571C-ACDFC28C47A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37ECAC6A-78E9-A596-6AB5-A42ED2BF0FB2" name="TRIPULACION_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>308202A5-ABE6-0C02-B02A-14464660C4F1</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DF03101-E257-ED24-1D62-5F51B86169DD"/>
+<colUsage columnID="65EF1996-3B3F-D1F7-509E-5DE0C9E5B318"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9FF8F77-2AAF-D84D-ACEC-918114B3F65B" name="TRIPULACION_EMPLEADO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>849892C7-5FFB-89D2-C035-B0D3501D8B8A</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DF03101-E257-ED24-1D62-5F51B86169DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0A9FA95-B24C-7FC1-74E7-0296115C6FFB" name="TRIPULACION_VIAJE_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-02 18:29:21 UTC</createdTime>
+<generatorID>F99FFD7C-A1BB-96BD-A826-3C107B10AA00</generatorID>
+<ownerDesignName>VUELOQUETZAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65EF1996-3B3F-D1F7-509E-5DE0C9E5B318"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

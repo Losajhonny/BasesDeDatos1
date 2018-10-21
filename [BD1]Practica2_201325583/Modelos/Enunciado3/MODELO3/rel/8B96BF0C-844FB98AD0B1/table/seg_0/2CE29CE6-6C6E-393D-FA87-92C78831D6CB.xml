@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CE29CE6-6C6E-393D-FA87-92C78831D6CB" name="DENUNCIA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>0EE002D1-A512-F118-99BA-F3369CBC0001</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha" id="700FA6DA-B062-9C1D-EEAA-3488B6D55F26">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>226A25D9-70D3-D48C-7E0B-5E440C855E4A</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_desaparecido" id="F999AC94-438F-07B8-ABDE-1391F4BDBDE6">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>2DAF7EB6-9DC7-FB99-0AE1-EFBF72B08316</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VICTIMA_codigo" id="2A10614C-0EF7-2CB2-8C40-5FBC9F5ABAFB">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>8630E601-CBB1-78BC-F295-833A80EAB14C</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D172B59-FBC6-4384-835C-B66FB1EFC66C" referredColumn="F990C8A8-F19A-9F9B-152C-7FE81B5D1020"/>
+</associations>
+</Column>
+<Column name="DENUNCIANTE_cui" id="AA0843C6-9FF3-2604-F1FA-B2981949809C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>3CD769B9-F4CA-81BA-1464-28557C371645</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EC11C95-163A-E81F-4927-803BD6B20A4D" referredColumn="AF5A529F-3BF8-5136-8FB1-694F78CAAF25"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E28EDF1B-4647-EB1E-1A77-AC8268550947" name="DENUNCIA_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>5F680CEE-4F8F-BE43-A614-FD7C0BDED9CA</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA0843C6-9FF3-2604-F1FA-B2981949809C"/>
+<colUsage columnID="2A10614C-0EF7-2CB2-8C40-5FBC9F5ABAFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2304AC2C-CAD5-1386-3F18-CCBFEF10BDA5" name="DENUNCIA_VICTIMA_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>D96A7AA4-36D8-A0D9-5076-BB35F3CBD977</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A10614C-0EF7-2CB2-8C40-5FBC9F5ABAFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED02B3AB-222B-B701-AE76-51F2E2A3CFCB" name="DENUNCIA_DENUNCIANTE_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-09-03 00:43:05 UTC</createdTime>
+<generatorID>9D0C13EE-0F6E-456A-94A7-6D644DD4FD0F</generatorID>
+<ownerDesignName>MODELO3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA0843C6-9FF3-2604-F1FA-B2981949809C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
