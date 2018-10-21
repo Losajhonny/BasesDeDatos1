@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A435388-64EE-C2C4-EAC4-857062E34B11" name="PRODUCTO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>B7BC4019-81FA-C033-AD04-2458A4BF36BE</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producto" id="2AB1976E-0B84-9DCA-3D53-1FFCA4B333FD">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>898B5735-C9A5-6B27-2161-C245F7DA4421</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreProducto" id="849A877A-D487-0B5A-6CB4-05D2B5C07A99">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>DC6D9537-3315-A9D7-C32B-05153FB47C5F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="839213FC-3A21-E0B0-72B7-044259B64E0D">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>CE6E284E-32AD-0E6C-E778-87AF2E655ED4</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA_id_categoria" id="84B99438-8B4F-2C60-50BB-62ADABA8DCDD">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>33D4C751-9A68-F10E-2C11-26C4153C8A50</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BF92EF8-C908-859C-D86D-D2BE1E53BA26" referredColumn="AEEC4520-81C1-7710-9F4F-552135A86B0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EC28648-5FA4-BDF8-DE78-D7ADE2384861" name="PRODUCTO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>3AC2E092-2E5F-3FEC-A7EA-F437A1CCDC2D</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AB1976E-0B84-9DCA-3D53-1FFCA4B333FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F2205E1-B977-9B00-DF02-CB7DAFA31CBF" name="PRODUCTO_CATEGORIA_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>155D3AB8-F13C-CB3B-97D4-A14B699DE05B</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84B99438-8B4F-2C60-50BB-62ADABA8DCDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

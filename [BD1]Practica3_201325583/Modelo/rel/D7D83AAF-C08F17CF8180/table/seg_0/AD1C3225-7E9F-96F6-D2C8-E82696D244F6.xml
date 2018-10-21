@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD1C3225-7E9F-96F6-D2C8-E82696D244F6" name="CATEGORIA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>8698B879-3BAA-8A84-0982-BF2FB80EB9E5</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categoria" id="AEEC4520-81C1-7710-9F4F-552135A86B0B">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>6671D83B-E7E4-5413-2063-614B208F9313</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreCategoria" id="CB9B311D-DB11-60F9-CCAC-417AAE21B30D">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>3491EE73-F305-6B07-96CC-B368A54A3584</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C156B2D1-A969-8567-EAA5-32395468BBC6" name="CATEGORIA_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>0A0DB831-7D93-68E0-F1E4-3EBBE559A7E4</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEEC4520-81C1-7710-9F4F-552135A86B0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

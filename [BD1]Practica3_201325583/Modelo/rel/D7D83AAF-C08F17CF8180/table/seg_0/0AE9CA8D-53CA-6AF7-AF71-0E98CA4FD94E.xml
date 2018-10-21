@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AE9CA8D-53CA-6AF7-AF71-0E98CA4FD94E" name="ORDEN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>B71D6E88-978C-7C14-6521-849F762BB142</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_orden" id="695DAEEC-E4F9-CD7C-6699-1362AFCC4D32">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>D21B200B-DA2B-10AD-4FEE-B936976DEBBA</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="linea_orden" id="C48CB11C-5163-B46E-ACFC-A561A5C3BC44">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>0D537C7D-3D8A-55EA-D3F9-68278E2057B2</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTO_id_producto" id="F5C50349-5949-F2F3-560B-AB8930DBE208">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>87121585-3186-27B3-0269-47888F1B265D</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B81A125-2A55-0231-AE72-72BF15DB4B66" referredColumn="2AB1976E-0B84-9DCA-3D53-1FFCA4B333FD"/>
+</associations>
+</Column>
+<Column name="VENDEDOR_id_vendedor" id="E9F33BCA-5302-315F-8F66-4D3B2FE03C2C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>DD979134-AE58-0E02-22CF-A95367FB9225</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E8C34CF-3D92-FAF2-34EC-97BC4930A9FA" referredColumn="762D22E0-3424-6E48-20BA-44141A4451A2"/>
+</associations>
+</Column>
+<Column name="CLIENTE_id_cliente" id="5D5E8DC8-9559-BFC1-0B12-C94F2EACA7C5">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>78422243-A94D-5D4A-CDD1-AEF6FAA5B33C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="025A491C-32F2-0DEC-6F40-111017F62126" referredColumn="29190AFA-40B7-735A-1FF3-E07AF83D981B"/>
+</associations>
+</Column>
+<Column name="cantidad" id="0F247BB5-DF6E-B30D-E9ED-6095DD37ED93">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>F42DFE80-44D9-46A9-26B4-B10FA6227D99</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_orden" id="5F0FAAA8-AFF9-1264-901C-785DF0C05F5C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>3450403C-004A-976A-ACFD-48A5B6D50FAD</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E52BD48C-F689-67DF-E877-28B4CB12E1DE" name="ORDEN_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>06B5133E-406E-072E-F304-2B725C2DAF8A</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="695DAEEC-E4F9-CD7C-6699-1362AFCC4D32"/>
+<colUsage columnID="C48CB11C-5163-B46E-ACFC-A561A5C3BC44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39A1C948-4A83-4DB8-7CE6-8A0B387AE727" name="ORDEN_PRODUCTO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>2DF63B80-D050-6B4F-43E0-067542CE815B</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5C50349-5949-F2F3-560B-AB8930DBE208"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7988C43D-E18A-4518-2499-1A228A546A99" name="ORDEN_VENDEDOR_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>F787DD02-935A-5FDC-B9BC-95EB7B011CB6</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9F33BCA-5302-315F-8F66-4D3B2FE03C2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDEF0280-D54A-5E58-1E38-E9F25AED062F" name="ORDEN_CLIENTE_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:59:27 UTC</createdTime>
+<generatorID>77AB9DBB-0338-F525-98F8-6B047CDDE99B</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D5E8DC8-9559-BFC1-0B12-C94F2EACA7C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

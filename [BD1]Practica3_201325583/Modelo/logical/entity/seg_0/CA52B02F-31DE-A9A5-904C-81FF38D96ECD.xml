@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA52B02F-31DE-A9A5-904C-81FF38D96ECD" name="VENDEDOR">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:49:07 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="D7D83AAF-2C7A-4474-994E-C08F17CF8180" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vendedor" id="F52C268E-9BFD-A0C1-FEAE-FEEDFB707618">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:49:17 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="D7D83AAF-2C7A-4474-994E-C08F17CF8180" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreVendedor" id="2C9D2513-FF35-4CFE-361C-AD763E30C1A4">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:49:28 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="D7D83AAF-2C7A-4474-994E-C08F17CF8180" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC64836B-D913-B72E-0255-97EDF50D9D43" name="VENDEDOR PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-07 21:49:24 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="D7D83AAF-2C7A-4474-994E-C08F17CF8180" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F52C268E-9BFD-A0C1-FEAE-FEEDFB707618</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
