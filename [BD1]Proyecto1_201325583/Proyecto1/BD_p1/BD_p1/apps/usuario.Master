@@ -1,0 +1,187 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="usuario.master.cs" Inherits="BD_p1.apps.usuario" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<!--
+		AQUIE VA EL BLOQUE DE TITLE_HTML QUE CAMBIA EL TITULO DE LA PESTAÑA DEL NAVEGADOR
+	-->
+	<title>Usuario</title>
+	<link href="usuario/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="wrapper">
+	<div id="page">
+				<div id="content">
+					<div class="post">
+						<!--
+							AQUI VA EL BLOQUE DE TITLE_PAGINA MODIFICA EL TITULO DE LA PAGINA
+						-->
+						<h2 class="title">
+                            <asp:ContentPlaceHolder ID="cont_titulo_pag" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </h2>
+                        <h2>
+
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+
+                        </h2> 
+                        <p class="meta">
+                            <script type="text/javascript">
+                                var fecha = "fecha";
+                                var mydate = new Date();
+                                var year = mydate.getYear();
+                                if (year < 1000)
+                                    year += 1900;
+                                var day = mydate.getDay();
+                                var month = mydate.getMonth() + 1;
+
+                                var daym = mydate.getDate();
+                                if (daym < 10)
+                                    daym = "0" + daym;
+
+                                if (month == 1) { fecha = "Enero"; } else
+                                    if (month == 2) { fecha = "Febrero"; } else
+                                        if (month == 3) { fecha = "Marzo"; } else
+                                            if (month == 4) { fecha = "Abril"; } else
+                                                if (month == 5) { fecha = "Mayo"; } else
+                                                    if (month == 6) { fecha = "Junio"; } else
+                                                        if (month == 7) { fecha = "Julio"; } else
+                                                            if (month == 8) { fecha = "Agosto"; } else
+                                                                if (month == 9) { fecha = "Septiembre"; } else
+                                                                    if (month == 10) { fecha = "Octubre"; } else
+                                                                        if (month == 11) { fecha = "Noviembre"; } else
+                                                                            if (month == 12) { fecha = "Diciembre"; }
+
+                                if (month < 10)
+                                    month = "0" + month;
+
+                                document.write(
+                                    "<span class=\"date\">" + daym + " " + fecha + " del " + year +
+                                    "</span>")
+						    </script>
+                            <span class="posted">
+                            
+                            
+                            
+                            <asp:Label ID="et_cuenta" runat="server" Text="Label"></asp:Label>
+                            
+                            
+                            
+                            </span>
+                        </p>
+						<!--
+							AQUI VA EL BLOQUE DEL CUERPO DONDE SE MOSTRAR LOS MENSAJES O OTRAS
+							OPCIONES DE CONFIGURACIONES
+						-->
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+							<h2 class="title">
+                                <asp:ContentPlaceHolder ID="cont_cuerpo" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </h2>
+                            <h4>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </h4>
+                            <h4>
+
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                                </asp:ContentPlaceHolder>
+
+                            </h4>
+                            <h4>
+
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+                                </asp:ContentPlaceHolder>
+
+                            </h4>
+                            <h4>
+
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+                                </asp:ContentPlaceHolder>
+
+                            </h4>
+                            <h4>
+
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder6" runat="server">
+                                </asp:ContentPlaceHolder>
+
+                            </h4>
+                            <h4>
+
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder7" runat="server">
+                                </asp:ContentPlaceHolder>
+
+                            </h4>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+				</div>
+				<!-- end #content -->
+				<div id="sidebar">
+					<div id="logo">
+						<h1>
+                            
+                            <asp:LinkButton ID="lb_iniciouser" runat="server" OnClick="lb_iniciouser_Click">corusac</asp:LinkButton>
+                            
+                        </h1>
+						<!--<p>by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a></p>-->
+					</div>
+					<div id="menu">
+						<ul>
+                            <li class="current_page_item">
+                                <asp:LinkButton ID="lb_redactar" runat="server" OnClick="lb_redactar_Click">Redactar</asp:LinkButton>
+                            </li>
+							<li>
+                                <asp:LinkButton ID="lb_entrada" runat="server" OnClick="lb_entrada_Click">Entrada</asp:LinkButton>
+                            </li>
+							<li>
+                                <asp:LinkButton ID="lb_enviados" runat="server" OnClick="lb_enviados_Click">Enviados</asp:LinkButton>
+                            </li>
+							<li>
+                                <asp:LinkButton ID="lb_borradores" runat="server" OnClick="lb_borradores_Click">Borradores</asp:LinkButton>
+                            </li>
+							<li>
+                                <asp:LinkButton ID="lb_eliminados" runat="server" OnClick="lb_eliminados_Click">Eliminados</asp:LinkButton>
+                            </li>
+						</ul>
+					</div>
+
+					<ul>
+						<li>
+							<h2>Perfil</h2>
+							<ul>
+								<li><a href="#">Cambiar nombre usuario</a></li>
+								<li><a href="#">Cambiar password</a></li>
+								<li>
+                                    
+                                    <asp:LinkButton ID="Lb_salir" runat="server" OnClick="Lb_salir_Click">Log out</asp:LinkButton>
+                                    
+                                </li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- end #sidebar -->
+	</div>
+	<!-- end #page -->
+</div>
+
+<div id="footer">
+	<p>@jhonnylosa</a>.</p>
+</div>
+&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- end #footer -->
+<div style="text-align: center; font-size: 0.75em;">Diseñado por Jhonatan Lopez 201325583</a>.</div>
+    </form>
+</body>
+</html>

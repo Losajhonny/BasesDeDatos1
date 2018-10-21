@@ -1,0 +1,8 @@
+C:\Users\jhonny\Desktop\Proyecto1\BD_p1\BD_p1\bin\BD_p1.dll.config
+C:\Users\jhonny\Desktop\Proyecto1\BD_p1\BD_p1\bin\BD_p1.dll
+C:\Users\jhonny\Desktop\Proyecto1\BD_p1\BD_p1\bin\BD_p1.pdb
+C:\Users\jhonny\Desktop\Proyecto1\BD_p1\BD_p1\obj\Debug\BD_p1.csprojResolveAssemblyReference.cache
+C:\Users\jhonny\Desktop\Proyecto1\BD_p1\BD_p1\obj\Debug\BD_p1.dll
+C:\Users\jhonny\Desktop\Proyecto1\BD_p1\BD_p1\obj\Debug\BD_p1.pdb
+C:\Users\jhonny\Desktop\Proyecto1\BD_p1\BD_p1\bin\Datos.dll
+C:\Users\jhonny\Desktop\Proyecto1\BD_p1\BD_p1\bin\Datos.pdb
