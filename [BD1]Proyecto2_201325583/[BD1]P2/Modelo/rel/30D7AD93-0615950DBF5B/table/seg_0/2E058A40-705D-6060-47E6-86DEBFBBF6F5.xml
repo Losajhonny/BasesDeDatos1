@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E058A40-705D-6060-47E6-86DEBFBBF6F5" name="PRONOSTICO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>C26FC35A-B62A-5D3B-5126-F9A0457D39D5</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha" id="10A27314-3284-0A7D-8B6B-C298C9A6E661">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>C2DDB21C-2A45-A48B-94B3-52B78E7B31B5</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="1657EF9A-95FB-BB9C-C87E-6417FAACA886">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>7843DA1C-308C-A285-7B1B-F62E605987C8</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marcador1" id="BFBF8638-D77A-7DE6-6BF7-CF9C57B0C7F2">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>EF0F9206-9FB3-1107-04F0-F43DA568A6DE</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marcador2" id="58D9C2CB-1826-FA35-C41B-BAF6F1B12EFE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>58254E20-AE95-030F-1BFA-10D8703EF299</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apuesta" id="5D7FE175-B46A-D150-612F-4D064C2EC5DD">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>4826D259-C655-CF0E-2B70-219E9D2F3BA1</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntos" id="6B9029D1-3E6B-BED8-A3BD-76582C116CEB">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>BAFA74FA-D2B7-D9BA-BE7C-CCB4E65969CA</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_nombre" id="80DC0E04-2A8D-8B97-C3C3-0ADA964F7520">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>6EFB6473-F47B-3AF7-ACD5-7CAF3AB0F0EC</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEF9C67C-D613-8357-6975-A5967A2AB9C3" referredColumn="5BFA2C8B-C25E-CE88-D781-679B077D51CC"/>
+</associations>
+</Column>
+<Column name="EQUIPO_codequipo" id="5D2D20A9-9548-19E2-06F8-228C1F1189DF">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>F9196761-8459-4F6D-202D-ED4EE3435A90</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC37BD68-71CA-3A79-8EA5-D19B6FA2FB78" referredColumn="9429C91E-B8CE-BEB8-A80D-6066ED04E880"/>
+</associations>
+</Column>
+<Column name="EQUIPO_codequipo1" id="DD54D799-047E-7624-2EDA-977B0B4EAE52">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>994243EE-4D2C-A354-D017-08539ACB8338</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3B0E14C-8222-9598-44F5-63CC86656041" referredColumn="9429C91E-B8CE-BEB8-A80D-6066ED04E880"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F466BD80-5844-F4F4-7629-AEBED2B39C8C" name="PRONOSTICO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>44B5352F-D419-FB41-8920-1FB660AF5EF2</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10A27314-3284-0A7D-8B6B-C298C9A6E661"/>
+<colUsage columnID="1657EF9A-95FB-BB9C-C87E-6417FAACA886"/>
+<colUsage columnID="5D2D20A9-9548-19E2-06F8-228C1F1189DF"/>
+<colUsage columnID="DD54D799-047E-7624-2EDA-977B0B4EAE52"/>
+<colUsage columnID="80DC0E04-2A8D-8B97-C3C3-0ADA964F7520"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E6CD53F-C388-EF23-F499-721C46957C9D" name="PRONOSTICO_USUARIO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>78C0196F-2F02-CC9F-734F-4B4A0FBE4EA5</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80DC0E04-2A8D-8B97-C3C3-0ADA964F7520"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD050C92-8B21-7505-D74C-394DC4C6C446" name="PRONOSTICO_EQUIPO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>0836F5C8-4848-9FCC-A4F9-09DF40B45FCE</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D2D20A9-9548-19E2-06F8-228C1F1189DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B755D42-4C09-3B9F-D746-DFE14C57F6D5" name="PRONOSTICO_EQUIPO_FKv1">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>D6E2FE33-54A2-D528-C163-6B666027CFF8</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD54D799-047E-7624-2EDA-977B0B4EAE52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

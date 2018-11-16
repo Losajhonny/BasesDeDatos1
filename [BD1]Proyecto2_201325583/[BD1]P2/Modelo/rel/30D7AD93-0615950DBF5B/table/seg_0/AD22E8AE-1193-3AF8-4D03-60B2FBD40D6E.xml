@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD22E8AE-1193-3AF8-4D03-60B2FBD40D6E" name="ASIGNACION_ARBITRO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>B3A60263-83AF-A69D-176A-664624126EE0</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_arbitro" id="0CD7E0B0-C0A1-7CD5-5274-011797638E28">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>FC187ED7-B498-75BB-B175-6BC7981CB25B</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTIDO_fecha" id="6B61A484-DD7A-DC56-1A1C-4C9F281AB15C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>D0CFD1B6-8A26-B009-3B98-261CF7DB7F6F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B899770-0F89-9D9A-3417-A3EB024963D0" referredColumn="AD91BF02-2E93-441A-4C6A-A1AACF0CF7E8"/>
+</associations>
+</Column>
+<Column name="PARTIDO_hora" id="A13EB826-79F5-D1BB-17E3-1D5EAF021DB9">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>AAE144D0-9632-DA6A-D057-0E6CDDB9E993</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B899770-0F89-9D9A-3417-A3EB024963D0" referredColumn="B8227355-2AF8-DEA0-778F-B3F67A3AC3D2"/>
+</associations>
+</Column>
+<Column name="PARTIDO_EQUIPO_codequipo" id="AFA5E047-B061-C29E-F3B3-FECE49A77712">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>70B24386-3977-98FB-2E02-DFF0207400BC</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B899770-0F89-9D9A-3417-A3EB024963D0" referredColumn="513F59FF-F930-8743-9080-294772B8680B"/>
+</associations>
+</Column>
+<Column name="PARTIDO_EQUIPO_codequipo1" id="1F2509D8-211F-DB45-F11F-C4CB76234516">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>D3780176-89D7-D1CD-468D-879EC814DF2C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B899770-0F89-9D9A-3417-A3EB024963D0" referredColumn="177ECA78-99C9-DB14-3693-83BFA6A9EFE4"/>
+</associations>
+</Column>
+<Column name="ARBITRO_codarbitro" id="99563724-47C6-FD0C-113D-8E3A38DF18E9">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>9CD80A30-D94D-85A9-C1BA-9A12A50AE56D</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF0DE51C-B40E-24F4-149C-C113A25D7D0F" referredColumn="75509849-34CB-4101-7811-2E5A11616C5A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27D534CB-66CF-77DE-3ED4-42A142DE3D31" name="ASIGNACION_ARBITRO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>3AE542FD-D404-A5DA-2BBA-6CC0598D70D3</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B61A484-DD7A-DC56-1A1C-4C9F281AB15C"/>
+<colUsage columnID="A13EB826-79F5-D1BB-17E3-1D5EAF021DB9"/>
+<colUsage columnID="AFA5E047-B061-C29E-F3B3-FECE49A77712"/>
+<colUsage columnID="1F2509D8-211F-DB45-F11F-C4CB76234516"/>
+<colUsage columnID="99563724-47C6-FD0C-113D-8E3A38DF18E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09C75AAE-DEFB-FB07-9B9E-3CC774B81C96" name="ASIGNACION_ARBITRO_PARTIDO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>0FAF65FF-94DA-CA40-9FF9-2DE93D77925F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B61A484-DD7A-DC56-1A1C-4C9F281AB15C"/>
+<colUsage columnID="A13EB826-79F5-D1BB-17E3-1D5EAF021DB9"/>
+<colUsage columnID="AFA5E047-B061-C29E-F3B3-FECE49A77712"/>
+<colUsage columnID="1F2509D8-211F-DB45-F11F-C4CB76234516"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62091DFF-F617-B737-6CE5-09247F9B2E32" name="ASIGNACION_ARBITRO_ARBITRO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>96A8A9BF-329A-6DA5-15F8-E681DC5C6AF0</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99563724-47C6-FD0C-113D-8E3A38DF18E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

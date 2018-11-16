@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3A60263-83AF-A69D-176A-664624126EE0" name="ASIGNACION_ARBITRO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 21:52:03 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo_arbitro" id="FC187ED7-B498-75BB-B175-6BC7981CB25B">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-23 16:52:27 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="D0CFD1B6-8A26-B009-3B98-261CF7DB7F6F">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:38:54 UTC</createdTime>
+<generatorID>0FAF65FF-94DA-CA40-9FF9-2DE93D77925F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<referedAttribute>BB333171-1C51-0F00-54A4-9232B311910C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora" id="AAE144D0-9632-DA6A-D057-0E6CDDB9E993">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:38:54 UTC</createdTime>
+<generatorID>0FAF65FF-94DA-CA40-9FF9-2DE93D77925F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<referedAttribute>73449FFD-FAA3-4830-1D53-2EEB6CE258D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codequipo" id="70B24386-3977-98FB-2E02-DFF0207400BC">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:38:54 UTC</createdTime>
+<generatorID>0FAF65FF-94DA-CA40-9FF9-2DE93D77925F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<referedAttribute>49EC47D9-E43D-B1B8-599E-3AD10036769E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codequipo1" id="D3780176-89D7-D1CD-468D-879EC814DF2C">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:38:54 UTC</createdTime>
+<generatorID>0FAF65FF-94DA-CA40-9FF9-2DE93D77925F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<referedAttribute>8CA19201-12C3-CBA7-D770-8E6A7EB2E0EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codarbitro" id="9CD80A30-D94D-85A9-C1BA-9A12A50AE56D">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:39:03 UTC</createdTime>
+<generatorID>96A8A9BF-329A-6DA5-15F8-E681DC5C6AF0</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<referedAttribute>ECB15FAD-BF3D-35BE-ECCA-0ADBCE0A48E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3AE542FD-D404-A5DA-2BBA-6CC0598D70D3" name="ASIGNACION_ARBITRO PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 21:52:56 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0CFD1B6-8A26-B009-3B98-261CF7DB7F6F</attributeRef>
+<attributeRef>AAE144D0-9632-DA6A-D057-0E6CDDB9E993</attributeRef>
+<attributeRef>70B24386-3977-98FB-2E02-DFF0207400BC</attributeRef>
+<attributeRef>D3780176-89D7-D1CD-468D-879EC814DF2C</attributeRef>
+<attributeRef>9CD80A30-D94D-85A9-C1BA-9A12A50AE56D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

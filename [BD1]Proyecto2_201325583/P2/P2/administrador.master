@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/usuario.master" AutoEventWireup="true" CodeBehind="administrador.master.cs" Inherits="P2.administrador1" %>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder6" runat="server">
+    <asp:LinkButton class="w3-bar-item w3-button w3-padding" ID="btn_carga_masiva" runat="server" OnClick="btn_carga_masiva_Click"><i class="fa fa-file-archive-o fa-fw"></i> Carga Masiva</asp:LinkButton>
+    <asp:LinkButton class="w3-bar-item w3-button w3-padding" ID="btn_jugadores" runat="server" OnClick="btn_jugadores_Click" ><i class="fa fa-play fa-fw"></i> ABC Jugadores</asp:LinkButton>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder7" runat="server">
+    <h5><b><i class="fa fa-user-secret"></i> 
+        <asp:Label ID="Label1" runat="server" Text="Administrador"></asp:Label>
+    </b></h5>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder8" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder9" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content5" runat="server" contentplaceholderid="ContentPlaceHolder5">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder10" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+

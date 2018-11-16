@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="118DDBE5-DB24-A508-CEDC-8C3538736823" name="ASIGNACION_GRUPO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 20:28:52 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="puntos" id="15646DEF-56F6-F21F-0381-3D61DF060DF1">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 20:29:02 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codequipo" id="45BF172B-FB22-65FF-D41F-E83EE823E1C2">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:37:03 UTC</createdTime>
+<generatorID>8B9B67DF-43B3-1A15-2525-87BEB79F1294</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<referedAttribute>1F3618D6-2964-A492-C824-191A356D2DC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codgrupo" id="31EECA3F-EF1F-6C74-0E28-C4BBDFD2EC26">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:37:26 UTC</createdTime>
+<generatorID>46396DCC-FF48-677F-4059-E204D8A6BA23</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<referedAttribute>28849A86-6F8C-AC93-70B9-74649CC22A9B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A8AB421-F1AC-9222-6D95-C3624235141F" name="ASIGNACION_GRUPO PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 20:29:40 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45BF172B-FB22-65FF-D41F-E83EE823E1C2</attributeRef>
+<attributeRef>31EECA3F-EF1F-6C74-0E28-C4BBDFD2EC26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

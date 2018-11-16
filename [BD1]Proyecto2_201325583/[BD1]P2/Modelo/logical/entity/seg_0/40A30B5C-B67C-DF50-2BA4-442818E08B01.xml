@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40A30B5C-B67C-DF50-2BA4-442818E08B01" name="PAIS">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:23:58 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codpais" id="C80D771B-F372-2CB8-DB50-C0BF4C9868C6">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:24:07 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="D08C8B92-D972-AFC7-EC15-7884947B950E">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:24:39 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B674D44-49C0-834F-80E2-71EC8F0B1401" name="PAIS PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:24:22 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C80D771B-F372-2CB8-DB50-C0BF4C9868C6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A7D99A1E-C4B1-66D4-2FED-B785BB29A443" name="PAIS_UN_NOMBRE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 18:25:40 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<newElementsIDs>D08C8B92-D972-AFC7-EC15-7884947B950E</newElementsIDs>
+<usedAttributes>
+<attributeRef>D08C8B92-D972-AFC7-EC15-7884947B950E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

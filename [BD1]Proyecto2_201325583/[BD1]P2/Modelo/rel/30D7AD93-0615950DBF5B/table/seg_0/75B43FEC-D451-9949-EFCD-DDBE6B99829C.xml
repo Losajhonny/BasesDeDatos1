@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75B43FEC-D451-9949-EFCD-DDBE6B99829C" name="CIUDAD">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>758B0BCB-1951-B1B0-E7BD-2770A0CC2442</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codciudad" id="FA4BE5F9-75F4-5230-3BC6-AC40C1B216C2">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>C024AE4F-9F82-6C25-505E-BE7D1D016A43</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="88FF7039-F923-3DB0-8825-BB156096B356">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>76100B9F-A708-8ED1-AA92-8AF47421C4C2</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBBD0246-81BD-A0C7-ECBB-5896C589870C" name="CIUDAD_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>3858F59C-8D5D-640B-24DE-1F55356FF56B</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA4BE5F9-75F4-5230-3BC6-AC40C1B216C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2F0DE40-7CE3-EA68-B145-402F762FB2C4" name="CIUDAD_nombre_UN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>84FA4705-DCEB-1BE4-1084-1BEB357E1038</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88FF7039-F923-3DB0-8825-BB156096B356"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

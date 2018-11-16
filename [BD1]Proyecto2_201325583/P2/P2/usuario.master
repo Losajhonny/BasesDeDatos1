@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/sitio.Master" AutoEventWireup="true" CodeBehind="usuario.master.cs" Inherits="P2.usuario1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder6" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:LinkButton class="w3-bar-item w3-button w3-padding" ID="btn_logout" runat="server" OnClick="btn_logout_Click"><i class="fa fa-lock w3-text-yellow fa-fw"></i> Logout</asp:LinkButton>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder4" runat="server">
+    
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder7" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder8" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+

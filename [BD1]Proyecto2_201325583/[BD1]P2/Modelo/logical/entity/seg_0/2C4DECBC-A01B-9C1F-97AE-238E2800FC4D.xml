@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C4DECBC-A01B-9C1F-97AE-238E2800FC4D" name="ARBITRO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:37:59 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codarbitro" id="ECB15FAD-BF3D-35BE-ECCA-0ADBCE0A48E4">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:38:07 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="A072F6AC-042B-1021-8479-F7746F597335">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:38:17 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69DC1668-6F57-6F88-93D0-2C6D20CA2C77" name="ARBITRO PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:38:16 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECB15FAD-BF3D-35BE-ECCA-0ADBCE0A48E4</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="1ED1C0BE-117C-2351-FB3D-8811D592EF39" name="ARBITRO_UN_NOMBRE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 18:24:25 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<newElementsIDs>A072F6AC-042B-1021-8479-F7746F597335</newElementsIDs>
+<usedAttributes>
+<attributeRef>A072F6AC-042B-1021-8479-F7746F597335</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

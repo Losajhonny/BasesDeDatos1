@@ -1,0 +1,5 @@
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\Datos\bin\Debug\Datos.dll
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\Datos\bin\Debug\Datos.pdb
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\Datos\obj\Debug\Datos.dll
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\Datos\obj\Debug\Datos.pdb

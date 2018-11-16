@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF5D4243-9548-31DC-E117-6FED288000EF" name="GRUPO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 21:36:44 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codgrupo" id="28849A86-6F8C-AC93-70B9-74649CC22A9B">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 21:36:50 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="1B0895F2-89BD-2569-28F3-325A5D01F89E">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 21:37:11 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="60A184A1-FE8B-8188-A828-B1643F7882B2" name="GRUPO PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 21:37:09 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28849A86-6F8C-AC93-70B9-74649CC22A9B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="6AA1DDC7-ED35-8375-CBBE-BC4AE93CF1AC" name="GRUPO_UN_NOMBRE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 18:29:59 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<newElementsIDs>1B0895F2-89BD-2569-28F3-325A5D01F89E</newElementsIDs>
+<usedAttributes>
+<attributeRef>1B0895F2-89BD-2569-28F3-325A5D01F89E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

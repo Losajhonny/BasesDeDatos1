@@ -1,0 +1,15 @@
+ENTIDADES Y ATRIBUTOS
+
+	PARTICIPANTE
+->	codigo
+-> 	nombre
+->	monto_inicial
+->	fecha_nacimiento
+
+	CONFEDEREACION
+->	codigo
+->	nombre
+
+	PAIS
+->	codigo
+->	nombre

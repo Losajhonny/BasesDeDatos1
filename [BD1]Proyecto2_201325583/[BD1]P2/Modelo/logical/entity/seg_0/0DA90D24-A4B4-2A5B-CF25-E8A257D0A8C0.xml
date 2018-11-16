@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DA90D24-A4B4-2A5B-CF25-E8A257D0A8C0" name="CONFEDERACION">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:25:10 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codconfederacion" id="065C2F73-EA75-6EEA-CE20-2AEECC4DB205">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:25:18 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2405D4E6-4C0C-9C0D-2D75-4C150138004B">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:25:30 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6EAE398-A97D-9F72-BE45-BD395F3EEA14" name="CONFEDERACION PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:25:29 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>065C2F73-EA75-6EEA-CE20-2AEECC4DB205</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="852D4A36-344F-972A-328C-1C7CC21F2F79" name="CONF_nombre_un">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-23 17:49:24 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<newElementsIDs>2405D4E6-4C0C-9C0D-2D75-4C150138004B</newElementsIDs>
+<usedAttributes>
+<attributeRef>2405D4E6-4C0C-9C0D-2D75-4C150138004B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

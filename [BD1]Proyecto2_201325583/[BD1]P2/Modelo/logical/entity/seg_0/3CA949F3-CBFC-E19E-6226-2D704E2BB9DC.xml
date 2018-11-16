@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CA949F3-CBFC-E19E-6226-2D704E2BB9DC" name="USUARIO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:27:17 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="8D6D9F77-CEC4-8274-963C-1FC1431F705F">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:27:53 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="D5C6E84B-3D9D-0CBA-2751-6A5ABB191E15">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 16:59:19 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad" id="90FEBDB5-EAF8-9B02-624B-73F37E35A633">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:28:40 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_inicial" id="86BC9898-CB77-3E42-A346-4CDDFD7036BD">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:28:05 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntos" id="B0518776-2BD9-763C-15B7-204455CD6393">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-27 18:43:07 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol" id="D6222570-1A19-8121-8003-A271E9794728">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:34:07 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codpais" id="F95AB505-3554-17B1-9E96-608456ABBF98">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:34:59 UTC</createdTime>
+<generatorID>32455285-023F-D71E-F870-4CCC6D45BC94</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<referedAttribute>C80D771B-F372-2CB8-DB50-C0BF4C9868C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99A87AA5-C924-8468-7173-ECD157E32966" name="PARTICIPANTE PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 19:27:52 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D6D9F77-CEC4-8274-963C-1FC1431F705F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="558C42F9-3F89-853B-D8BF-02113F815AB8" name="PART_UN_NOMBRE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 18:18:24 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<newElementsIDs>8D6D9F77-CEC4-8274-963C-1FC1431F705F</newElementsIDs>
+<usedAttributes>
+<attributeRef>8D6D9F77-CEC4-8274-963C-1FC1431F705F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

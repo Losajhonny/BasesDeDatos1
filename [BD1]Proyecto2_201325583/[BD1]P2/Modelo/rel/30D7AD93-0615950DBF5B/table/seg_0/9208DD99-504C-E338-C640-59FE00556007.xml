@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9208DD99-504C-E338-C640-59FE00556007" name="EQUIPO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>D92E9B65-015B-AC81-2CBC-1D72C89D0EE7</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codequipo" id="9429C91E-B8CE-BEB8-A80D-6066ED04E880">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>1F3618D6-2964-A492-C824-191A356D2DC2</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="DFF7902B-6CD8-86A4-15BE-2D343B14C100">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>CF422687-CAAA-4062-3BE5-E0E74768B94D</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONFEDERACION_codconfederacion" id="57E7456E-B1F1-4462-5FF7-3D9285B79806">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>C824520D-BFE1-DE7E-EB46-DADC5A86185F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2A32034-8324-47F5-E277-15446FD2BFBB" referredColumn="8C5E2EB1-3D25-BAD1-00EB-B4A1430091B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7DF1A18-2F74-19D9-EAB6-541B900336EF" name="EQUIPO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>EBED875C-FBF8-CD2B-55A9-BCB7074BDE8F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9429C91E-B8CE-BEB8-A80D-6066ED04E880"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9DB2D77-7C63-CAD0-8898-01C949C3B8CC" name="EQUIPO_nombre_UN">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>E5CD294B-1155-0871-5616-4780B92EA269</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFF7902B-6CD8-86A4-15BE-2D343B14C100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E51F4A5D-FA92-C312-CE16-099A3957F003" name="EQUIPO_CONFEDERACION_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:32 UTC</createdTime>
+<generatorID>E713165B-6258-A1D7-504D-4813A922B93F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57E7456E-B1F1-4462-5FF7-3D9285B79806"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

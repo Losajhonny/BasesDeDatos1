@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C26FC35A-B62A-5D3B-5126-F9A0457D39D5" name="PRONOSTICO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 21:54:06 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha" id="C2DDB21C-2A45-A48B-94B3-52B78E7B31B5">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 17:34:52 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora" id="7843DA1C-308C-A285-7B1B-F62E605987C8">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 17:35:01 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marcador1" id="EF0F9206-9FB3-1107-04F0-F43DA568A6DE">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 17:34:35 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marcador2" id="58254E20-AE95-030F-1BFA-10D8703EF299">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 17:34:42 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apuesta" id="4826D259-C655-CF0E-2B70-219E9D2F3BA1">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-25 20:53:57 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntos" id="BAFA74FA-D2B7-D9BA-BE7C-CCB4E65969CA">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:35:23 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="6EFB6473-F47B-3AF7-ACD5-7CAF3AB0F0EC">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:35:46 UTC</createdTime>
+<generatorID>78C0196F-2F02-CC9F-734F-4B4A0FBE4EA5</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<referedAttribute>8D6D9F77-CEC4-8274-963C-1FC1431F705F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codequipo" id="F9196761-8459-4F6D-202D-ED4EE3435A90">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:36:28 UTC</createdTime>
+<generatorID>0836F5C8-4848-9FCC-A4F9-09DF40B45FCE</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<referedAttribute>1F3618D6-2964-A492-C824-191A356D2DC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codequipo1" id="994243EE-4D2C-A354-D017-08539ACB8338">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:36:33 UTC</createdTime>
+<generatorID>D6E2FE33-54A2-D528-C163-6B666027CFF8</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<referedAttribute>1F3618D6-2964-A492-C824-191A356D2DC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44B5352F-D419-FB41-8920-1FB660AF5EF2" name="PRONOSTICO PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-10-20 21:55:06 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="62E395DD-1884-E723-5FB1-7AEBC8F0D55A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2DDB21C-2A45-A48B-94B3-52B78E7B31B5</attributeRef>
+<attributeRef>7843DA1C-308C-A285-7B1B-F62E605987C8</attributeRef>
+<attributeRef>F9196761-8459-4F6D-202D-ED4EE3435A90</attributeRef>
+<attributeRef>994243EE-4D2C-A354-D017-08539ACB8338</attributeRef>
+<attributeRef>6EFB6473-F47B-3AF7-ACD5-7CAF3AB0F0EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

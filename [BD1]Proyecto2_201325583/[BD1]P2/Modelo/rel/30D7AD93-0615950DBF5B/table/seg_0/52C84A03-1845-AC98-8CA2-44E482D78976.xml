@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52C84A03-1845-AC98-8CA2-44E482D78976" name="PARTIDO">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>E92358C7-4AB9-6E94-3D6D-E9B63B41E844</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha" id="AD91BF02-2E93-441A-4C6A-A1AACF0CF7E8">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>BB333171-1C51-0F00-54A4-9232B311910C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="B8227355-2AF8-DEA0-778F-B3F67A3AC3D2">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>73449FFD-FAA3-4830-1D53-2EEB6CE258D8</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marcador1" id="5482688B-0282-AC07-6A3F-2FC486E39244">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>95575521-23FD-259D-D4B9-1B614AC2F76A</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marcador2" id="65868457-AD7A-E1CC-C87E-E05C734263C8">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>EB2C6DF7-ADE6-B62A-D4F2-5B6C7922E771</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntos" id="3550E151-7679-AA2E-44C4-3923C7553831">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>C935EC3F-F30F-F260-5D45-49FD0907F230</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQUIPO_codequipo" id="513F59FF-F930-8743-9080-294772B8680B">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>49EC47D9-E43D-B1B8-599E-3AD10036769E</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="804699EB-FFD1-F11F-A7C8-FF874009F4AA" referredColumn="9429C91E-B8CE-BEB8-A80D-6066ED04E880"/>
+</associations>
+</Column>
+<Column name="EQUIPO_codequipo1" id="177ECA78-99C9-DB14-3693-83BFA6A9EFE4">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>8CA19201-12C3-CBA7-D770-8E6A7EB2E0EE</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D80972F-83CA-E8E9-4956-E60D287A3AC8" referredColumn="9429C91E-B8CE-BEB8-A80D-6066ED04E880"/>
+</associations>
+</Column>
+<Column name="CIUDAD_codciudad" id="55394E21-D24C-7277-9A93-5EA8A91A274A">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>92696E5F-D777-F1CC-A573-8AE5856FA58B</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50A42369-8F32-832B-349F-11A429D3A040" referredColumn="FA4BE5F9-75F4-5230-3BC6-AC40C1B216C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29940D35-083E-9E04-8291-523BB14245E0" name="PARTIDO_PK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>421EE1B4-D2C8-95AE-0B45-070AB3BC0A51</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD91BF02-2E93-441A-4C6A-A1AACF0CF7E8"/>
+<colUsage columnID="B8227355-2AF8-DEA0-778F-B3F67A3AC3D2"/>
+<colUsage columnID="513F59FF-F930-8743-9080-294772B8680B"/>
+<colUsage columnID="177ECA78-99C9-DB14-3693-83BFA6A9EFE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F31E3D95-5E62-2268-CE09-AA6AF4E9EBFB" name="PARTIDO_EQUIPO_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>6A904BAE-04F7-71C0-ABFF-C4B89A9B676C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="513F59FF-F930-8743-9080-294772B8680B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1C34219-2DA5-07AA-F73B-9CF1F5D8BDE2" name="PARTIDO_EQUIPO_FKv1">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>7B2B05DA-C122-1F62-89B6-82F5839C6E35</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="177ECA78-99C9-DB14-3693-83BFA6A9EFE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AD22812-E914-9483-51A5-1DCE625B388B" name="PARTIDO_CIUDAD_FK">
+<createdBy>jhonny</createdBy>
+<createdTime>2018-11-02 17:42:31 UTC</createdTime>
+<generatorID>B5B79D87-376B-F71F-AA14-15944F076DA6</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55394E21-D24C-7277-9A93-5EA8A91A274A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

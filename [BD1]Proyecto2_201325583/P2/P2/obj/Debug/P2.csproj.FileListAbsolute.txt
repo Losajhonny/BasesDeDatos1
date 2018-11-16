@@ -1,0 +1,11 @@
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\P2\bin\P2.dll.config
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\P2\bin\P2.dll
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\P2\bin\P2.pdb
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\P2\obj\Debug\P2.csprojResolveAssemblyReference.cache
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\P2\obj\Debug\P2.dll
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\P2\obj\Debug\P2.pdb
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\P2\bin\Datos.dll
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\P2\bin\Datos.pdb
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\P2\obj\Debug\P2.csproj.ResolveComReference.cache
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\P2\bin\SpreadsheetLight.dll
+C:\Users\jhonny\Desktop\[BD1]Proyecto2_201325583\P2\P2\bin\SpreadsheetLight.xml
